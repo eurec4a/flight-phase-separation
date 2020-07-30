@@ -1,6 +1,6 @@
-## Segmentation of HALO flights during EUREC4A
+## Segmentation of flights during EUREC4A
 
-The HALO Research Flights (RFs) during EUREC4A can be divided into different segments. 
+The Research Flights (RFs) during EUREC4A can be divided into different segments. 
 For example circles and straight legs were purposefully conducted maneuvers during which 
 a distinct sampling behaviour of the various instruments can be assumed. For future analyses
 based on specific kinds of flight segments (e.g. only based on circles) it is desired to use a 
@@ -54,7 +54,7 @@ of dropsonde data.
 #### circling:
 - Period during which the aircraft was on the standard circling track with roughly 3° roll angle.
 - Periods without dropsonde launches are included here (e.g. circle_break).
-- Useful when wanting to loop over the full period HALO was on the circle track.
+- Useful when wanting to loop over the full period the aircraft was on the circle track.
 
 #### clover_leg:
 - Defined as the long legs of a clover flight pattern with close to 2° roll angle.
