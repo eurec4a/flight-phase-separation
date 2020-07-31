@@ -70,7 +70,7 @@ def default_segment_plot(seg, sonde_tracks_by_flag, seg_before, seg_after):
     overview_ax.set_xlabel("longitude [deg]")
     overview_ax.set_ylabel("latitude [deg]")
 
-    for ax, var, unit in [(alt_ax, "altitude", "m"),
+    for ax, var, unit in [(alt_ax, "alt", "m"),
                           (roll_ax, "roll", "deg"),
                           (pitch_ax, "pitch", "deg"),
                           (yaw_ax, "heading", "deg")]:
@@ -175,11 +175,11 @@ SPECIAL_PLOTS = {
     "circle": [circle_detail_plot, zoom_on("roll", "deg")],
     "circling": [zoom_on("roll", "deg", tofs=np.timedelta64(3, "m")),
                  zoom_on("pitch", "deg", tofs=np.timedelta64(3, "m")),
-                 zoom_on("altitude", "m", tofs=np.timedelta64(3, "m"))],
+                 zoom_on("alt", "m", tofs=np.timedelta64(3, "m"))],
     "straight_leg": [straight_leg_detail_plot, zoom_on("roll", "deg")],
     "radar_calibration_wiggle": [zoom_on("roll", "deg")],
     "radar_calibration_tilted": [zoom_on("roll", "deg")],
-    "lidar_leg": [timeline_of("altitude", "m"), zoom_on("altitude", "m")],
+    "lidar_leg": [timeline_of("alt", "m"), zoom_on("alt", "m")],
     "baccardi_calibration": [straight_leg_detail_plot, zoom_on("roll", "deg")],
 }
 

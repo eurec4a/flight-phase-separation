@@ -20,7 +20,7 @@ def get_navdata_HALO(flight):
         "time": ds.TIME,
         "lat": ds.IRS_LAT,
         "lon": ds.IRS_LON,
-        "altitude": ds.IRS_ALT,
+        "alt": ds.IRS_ALT,
         "roll": ds.IRS_PHI,
         "pitch": ds.IRS_THE,
         "heading": ds.IRS_HDG,
