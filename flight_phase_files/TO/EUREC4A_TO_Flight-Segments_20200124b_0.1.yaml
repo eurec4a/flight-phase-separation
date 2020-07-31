@@ -1,0 +1,132 @@
+name: RF02
+mission: EUREC4A
+platform: TO
+flight_id: TO-0331
+contacts: []
+date: 2020-01-24
+flight_report: ''
+takeoff: 2020-01-24 16:10:28
+landing: 2020-01-24 19:29:35
+events: []
+remarks: HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 16:25:28
+  end: 2020-01-24 16:45:37
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 16:46:28
+  end: 2020-01-24 17:04:54
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:05:19
+  end: 2020-01-24 17:09:11
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:11:19
+  end: 2020-01-24 17:14:19
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:15:11
+  end: 2020-01-24 17:21:11
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:21:11
+  end: 2020-01-24 17:25:28
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:27:11
+  end: 2020-01-24 17:40:54
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:42:36
+  end: 2020-01-24 17:46:02
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 17:46:54
+  end: 2020-01-24 17:59:45
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:06:36
+  end: 2020-01-24 18:17:45
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:20:19
+  end: 2020-01-24 18:25:02
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:26:45
+  end: 2020-01-24 18:28:53
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:29:19
+  end: 2020-01-24 18:33:10
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:34:53
+  end: 2020-01-24 18:38:45
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:40:02
+  end: 2020-01-24 18:48:10
+- kinds:
+  - profile
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 18:55:53
+  end: 2020-01-24 19:10:27
+- kinds:
+  - level
+  name: ''
+  irregularities: ''
+  segment_id: ''
+  start: 2020-01-24 19:10:53
+  end: 2020-01-24 19:23:19
