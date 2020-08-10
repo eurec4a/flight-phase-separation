@@ -5,20 +5,19 @@ For example circles and straight legs were purposefully conducted maneuvers duri
 a distinct sampling behaviour of the various instruments can be assumed. For future analyses
 based on specific kinds of flight segments (e.g. only based on circles) it is desired to use a
 common set of start- and end-times to assure consistency between the studies. This repository
-provides the start- and end-times of the flight-segments for each RF together with some  very
-general information about the RF or special events during the RF.
+provides files listing the start- and end-times of  flight segments for each platform for each flight. The files also contain general information and/or notes about special events during the RF.
 
 Flight segments need not be unique or complete: a given time during a flight may belong to
 any number of segments or none at all. Segments may overlap (i.e. a segment of kind `circling`
-may include several segments of kind `circle`).
+may include several segments of kind `circle`). This allows flights to be segmented
+in multiple ways and at multiple levels of granulatiry.
 
-Following are names of segments assembled from a range of platforms describing broad sampling strategies.
-Data providers are encouraged to use these names, especially those in the first, where applicable.
-Feel free to add the the list (e.g. with a Github pull request) if needed.
 
 ### Common vocabulary - broad sampling strategy
-The following describe broad sampling goals. Many will contain subsets
+Following are names of segments assembled from a range of platforms describing broad sampling strategies. Many will contain subsets
 e.g. `cloud` segments will likely contain `subcloud layer` and `cloud layer` segments.
+Data providers are encouraged to use these names, especially those in the first, where applicable.
+Feel free to add the the list (e.g. with a Github pull request) if needed.
 * ground
 * transit
 * circle
@@ -33,8 +32,8 @@ e.g. `cloud` segments will likely contain `subcloud layer` and `cloud layer` seg
 
 ### Common vocabulary - subsets/refinements and super-sets
 * circling: describes multiple consecutive circles.
-* profile upward: provides further detail for `profile` segments
-* profile downward: provides further detail for `profile` segments
+* upward: primarily ascending, could be used as further detail for `profile` segments
+* downward: primarily descending, could be used as further detail for `profile` segments
 
 The following kinds describe level flight legs sampling atmospheric structure:
 * surface level
@@ -60,4 +59,4 @@ HALO uses the following sub-kinds of the `calibration` kind:
 
 ## Conventions
 Flight segmentation is designed to be flexible and unstructured, but we propose that data providers follow the convention that
-_a time or time window should not belong to more than one segment of the same type_
+_a time or time window may not belong to more than one segment of the same kind_
