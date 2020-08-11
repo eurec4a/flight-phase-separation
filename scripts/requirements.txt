@@ -8,3 +8,7 @@ aiohttp
 intake
 git+https://github.com/intake/intake-xarray@master#egg=intake-xarray
 pydap
+
+# for decoration
+tqdm
+coloredlogs
