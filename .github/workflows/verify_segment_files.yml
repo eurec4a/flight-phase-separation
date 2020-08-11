@@ -1,0 +1,21 @@
+name: Validate segment files
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.x"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+    - name: Validate segment files
+      run: |
+        cd scripts
+        python3 verify.py ../flight_phase_files/*/*.yaml

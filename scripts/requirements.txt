@@ -1,0 +1,10 @@
+# for reading the files
+pyyaml
+
+# for accessing flight data
+xarray
+requests
+aiohttp
+intake
+git+https://github.com/intake/intake-xarray@master#egg=intake-xarray
+pydap
