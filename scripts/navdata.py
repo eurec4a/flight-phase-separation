@@ -11,7 +11,7 @@ def get_navdata_HALO(flight):
     import xarray as xr
     from intake import open_catalog
     if "HALO" not in _catalog_cache:
-        _catalog_cache["HALO"] = open_catalog("https://raw.githubusercontent.com/d70-t/eurec4a-intake/HALO_QL/catalog.yml")
+        _catalog_cache["HALO"] = open_catalog("https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml")
 
     catalog = _catalog_cache["HALO"]
     bahamas = catalog.halo.bahamas.ql.by_flight_id[flight].to_dask()
