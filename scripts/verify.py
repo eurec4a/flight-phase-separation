@@ -1,38 +1,25 @@
 import os
+import logging
+import traceback
 import yaml
 import numpy as np
 
 from navdata import get_navdata
 from checkers import FlightChecker
 
-def _main():
-    import logging
-    logging.basicConfig(format='%(levelname)s %(name)s: %(message)s', level=logging.INFO)
-
-    basedir = os.path.abspath(os.path.dirname(__file__))
-    import argparse
-    parser = argparse.ArgumentParser()
-    parser.add_argument("infile")
-    parser.add_argument("-s", "--sonde_info", help="sonde info yaml file", default=os.path.join(basedir, "sondes.yaml"))
-    args = parser.parse_args()
-
-    mainlogger = logging.getLogger("main")
+def validate(segment_file, sonde_info):
     flightlogger = logging.getLogger("flight")
     segmentlogger = logging.getLogger("segment")
 
-    mainlogger.info("verifying %s", args.infile)
-
-    flightdata = yaml.load(open(args.infile), Loader=yaml.SafeLoader)
+    flightdata = yaml.load(open(segment_file), Loader=yaml.SafeLoader)
     checker = FlightChecker(flightdata)
+    sonde_info = [s for s in sonde_info if s["platform"] == flightdata["platform"]]
 
     flight_warnings = list(checker.check_flight(flightdata))
     for warning in flight_warnings:
         flightlogger.warn(warning)
 
     navdata = get_navdata(flightdata["platform"], flightdata["flight_id"]).load()
-
-    sonde_info = yaml.load(open(args.sonde_info), Loader=yaml.SafeLoader)
-    sonde_info = [s for s in sonde_info if s["platform"] == flightdata["platform"]]
 
     segment_warning_count = 0
     for seg in flightdata["segments"]:
@@ -53,11 +40,41 @@ def _main():
 
         segment_warning_count += len(warnings)
 
-    mainlogger.info("%d flight warnings, %d segment warnings",
-                    len(flight_warnings),
-                    segment_warning_count)
+    return len(flight_warnings), segment_warning_count
 
-    if len(flight_warnings) == 0 and segment_warning_count == 0:
+
+def _main():
+    logging.basicConfig(format='%(levelname)s %(name)s: %(message)s', level=logging.WARNING)
+    mainlogger = logging.getLogger("main")
+
+    basedir = os.path.abspath(os.path.dirname(__file__))
+
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("infiles", type=str, nargs="+")
+    parser.add_argument("-s", "--sonde_info", help="sonde info yaml file", default=os.path.join(basedir, "sondes.yaml"))
+    args = parser.parse_args()
+
+    sonde_info = yaml.load(open(args.sonde_info), Loader=yaml.SafeLoader)
+
+    total_warnings = 0
+    for filename in args.infiles:
+        mainlogger.info("verifying %s", filename)
+        try:
+            flight_warning_count, segment_warning_count = validate(
+                        filename, sonde_info)
+            total_warnings += flight_warning_count + segment_warning_count
+            mainlogger.info("%d flight warnings, %d segment warnings",
+                            flight_warning_count,
+                            segment_warning_count)
+        except Exception as e:
+            total_warnings += 1
+            traceback.print_exc()
+            mainlogger.error("exception while processing segment file %s: %s",
+                             filename, e)
+
+
+    if total_warnings == 0:
         return 0
     else:
         return 1
