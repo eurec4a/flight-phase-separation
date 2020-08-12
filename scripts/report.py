@@ -335,7 +335,7 @@ def _main():
         sondes_by_flag = {f: [s for s in sondes_in_segment if s["flag"] == f]
                           for f in set(s["flag"] for s in sondes_in_segment)}
 
-        manual_sondes_by_flag = {f: [sondes_by_id[s] for s in sondes] for f, sondes in seg.get("dropsondes", []).items()}
+        manual_sondes_by_flag = {f: [sondes_by_id[s] for s in sondes] for f, sondes in seg.get("dropsondes", {}).items()}
 
         seg["sondes_by_flag"] = sondes_by_flag
 
