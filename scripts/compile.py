@@ -2,6 +2,7 @@ import sys
 import yaml
 from collections import defaultdict
 
+
 def _main():
     import argparse
 
@@ -26,6 +27,7 @@ def _main():
     yaml.dump(dict(all_flights.items()), outfile)
 
     return 0
+
 
 if __name__ == "__main__":
     exit(_main())
