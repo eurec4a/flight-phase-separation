@@ -1,0 +1,105 @@
+name: RF22
+mission: EUREC4A
+platform: TO
+flight_id: TO-0351
+contacts: []
+date: 2020-02-13
+flight_report: ''
+takeoff: 2020-02-13 16:59:21
+landing: 2020-02-13 20:31:37
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0351_
+  start: 2020-02-13 17:10:23
+  end: 2020-02-13 17:10:23

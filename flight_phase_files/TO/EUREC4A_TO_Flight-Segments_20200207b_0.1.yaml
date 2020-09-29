@@ -1,0 +1,140 @@
+name: RF15
+mission: EUREC4A
+platform: TO
+flight_id: TO-0344
+contacts: []
+date: 2020-02-07
+flight_report: ''
+takeoff: 2020-02-07 17:03:22
+landing: 2020-02-07 20:34:13
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0344_
+  start: 2020-02-07 17:10:20
+  end: 2020-02-07 17:10:20

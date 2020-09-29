@@ -1,0 +1,133 @@
+name: RF06
+mission: EUREC4A
+platform: TO
+flight_id: TO-0335
+contacts: []
+date: 2020-01-28
+flight_report: ''
+takeoff: 2020-01-28 18:22:28
+landing: 2020-01-28 22:03:55
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - Profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 18:47:29
+  end: 2020-01-28 18:56:06
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 18:55:09
+  end: 2020-01-28 19:06:10
+- kinds:
+  - ''
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 18:55:38
+  end: 2020-01-28 18:56:35
+- kinds:
+  - Profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 19:04:44
+  end: 2020-01-28 19:10:29
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 19:10:58
+  end: 2020-01-28 19:21:02
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 19:22:28
+  end: 2020-01-28 19:27:44
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 19:29:11
+  end: 2020-01-28 19:31:34
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 19:33:01
+  end: 2020-01-28 20:20:57
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:22:52
+  end: 2020-01-28 20:24:47
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:26:13
+  end: 2020-01-28 20:32:27
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:34:50
+  end: 2020-01-28 20:37:14
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:39:38
+  end: 2020-01-28 20:44:54
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:46:21
+  end: 2020-01-28 20:54:01
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 20:55:27
+  end: 2020-01-28 21:09:50
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 21:13:11
+  end: 2020-01-28 21:28:03
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 21:29:29
+  end: 2020-01-28 21:44:20
+- kinds:
+  - Transit
+  name: ''
+  irregularities: []
+  segment_id: TO-0335_
+  start: 2020-01-28 21:45:18
+  end: 2020-01-28 22:03:54

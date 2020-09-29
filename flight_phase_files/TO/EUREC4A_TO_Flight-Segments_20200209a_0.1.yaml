@@ -1,0 +1,105 @@
+name: RF16
+mission: EUREC4A
+platform: TO
+flight_id: TO-0345
+contacts: []
+date: 2020-02-09
+flight_report: ''
+takeoff: 2020-02-09 10:42:08
+landing: 2020-02-09 14:37:24
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0345_
+  start: 2020-02-09 11:02:12
+  end: 2020-02-09 11:02:12

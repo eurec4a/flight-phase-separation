@@ -1,0 +1,147 @@
+name: RF11
+mission: EUREC4A
+platform: TO
+flight_id: TO-0340
+contacts: []
+date: 2020-02-05
+flight_report: ''
+takeoff: 2020-02-05 11:23:54
+landing: 2020-02-05 15:10:23
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0340_
+  start: 2020-02-05 11:40:30
+  end: 2020-02-05 11:40:30

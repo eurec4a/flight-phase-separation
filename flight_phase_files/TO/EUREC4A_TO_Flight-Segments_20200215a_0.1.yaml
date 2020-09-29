@@ -1,0 +1,98 @@
+name: RF24
+mission: EUREC4A
+platform: TO
+flight_id: TO-0353
+contacts: []
+date: 2020-02-15
+flight_report: ''
+takeoff: 2020-02-15 11:44:36
+landing: 2020-02-15 15:27:27
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0353_
+  start: 2020-02-15 11:57:38
+  end: 2020-02-15 11:57:38
