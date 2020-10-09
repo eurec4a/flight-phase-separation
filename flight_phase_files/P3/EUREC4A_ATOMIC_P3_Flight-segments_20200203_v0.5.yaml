@@ -1,0 +1,113 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0220
+name: RF06
+events: []
+remarks: []
+date: 2020-02-03
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-02-03 13:19:02
+landing: 2020-02-03 19:21:57
+version: v0.5
+segments:
+- name: circle 1
+  start: 2020-02-03 14:12:22
+  end: 2020-02-03 15:07:44
+  irregularities: []
+  segment_id: P3-0203_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0203_s05
+    - P3-0203_s06
+    - P3-0203_s07
+    - P3-0203_s09
+    - P3-0203_s10
+    - P3-0203_s11
+    - P3-0203_s13
+    - P3-0203_s14
+    - P3-0203_s15
+    - P3-0203_s16
+    - P3-0203_s17
+    BAD:
+    - P3-0203_s08
+    - P3-0203_s12
+    UGLY: []
+- name: isotope profiles
+  start: 2020-02-03 15:07:44
+  end: 2020-02-03 15:45:00
+  irregularities: []
+  segment_id: P3-0203_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: AXBT pattern
+  start: 2020-02-03 15:45:00
+  end: 2020-02-03 17:27:00
+  irregularities: []
+  segment_id: P3-0203_ax1
+  kinds:
+  - axbt
+  dropsondes:
+    GOOD:
+    - P3-0203_s18
+    - P3-0203_s21
+    BAD: []
+    UGLY:
+    - P3-0203_s19
+    - P3-0203_s20
+    - P3-0203_s22
+- name: Transit to cloud
+  start: 2020-02-03 17:27:00
+  end: 2020-02-03 17:38:00
+  irregularities: []
+  segment_id: P3-0203_tr1
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: Entire cloud module
+  start: 2020-02-03 17:38:00
+  end: 2020-02-03 18:45:00
+  irregularities: []
+  segment_id: P3-0203_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: Transit to Barbados
+  start: 2020-02-03 18:45:00
+  end: 2020-02-03 19:21:57
+  irregularities: []
+  segment_id: P3-0203_tr2
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []

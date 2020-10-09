@@ -1,0 +1,162 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0120
+name: RF03
+events: []
+remarks: []
+date: 2020-01-23
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-01-23 13:21:02
+landing: 2020-01-23 21:29:14
+version: v0.5
+segments:
+- name: ascent for transit
+  start: 2020-01-23 13:21:05
+  end: 2020-01-23 13:43:30
+  irregularities: []
+  segment_id: P3-0123_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 1
+  start: 2020-01-23 14:05:34
+  end: 2020-01-23 15:01:01
+  irregularities: []
+  segment_id: P3-0123_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0123_s05
+    - P3-0123_s06
+    - P3-0123_s07
+    - P3-0123_s08
+    - P3-0123_s09
+    - P3-0123_s10
+    - P3-0123_s11
+    - P3-0123_s12
+    - P3-0123_s14
+    - P3-0123_s15
+    - P3-0123_s16
+    BAD: []
+    UGLY:
+    - P3-0123_s13
+- name: isotope profile descending
+  start: 2020-01-23 15:06:00
+  end: 2020-01-23 15:32:00
+  irregularities: []
+  segment_id: P3-0123_pr2
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: isotope profile ascending
+  start: 2020-01-23 15:48:00
+  end: 2020-01-23 15:58:00
+  irregularities: []
+  segment_id: P3-0123_pr3
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: transit to start of AXBT pattern
+  start: 2020-01-23 15:58:00
+  end: 2020-01-23 16:08:00
+  irregularities: []
+  segment_id: P3-0123_tr1
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: AXBT pattern
+  start: 2020-01-23 16:08:00
+  end: 2020-01-23 18:57:00
+  irregularities: []
+  segment_id: P3-0123_ax1
+  kinds:
+  - axbt
+  dropsondes:
+    GOOD:
+    - P3-0123_s17
+    - P3-0123_s18
+    - P3-0123_s19
+    - P3-0123_s20
+    - P3-0123_s21
+    - P3-0123_s22
+    - P3-0123_s23
+    - P3-0123_s25
+    - P3-0123_s26
+    BAD: []
+    UGLY:
+    - P3-0123_s24
+- name: isotope profile 2 descending
+  start: 2020-01-23 19:07:30
+  end: 2020-01-23 19:18:00
+  irregularities: []
+  segment_id: P3-0123_pr4
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: isotope profile 2 ascending
+  start: 2020-01-23 19:18:00
+  end: 2020-01-23 19:42:30
+  irregularities: []
+  segment_id: P3-0123_pr5
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 2
+  start: 2020-01-23 19:45:00
+  end: 2020-01-23 20:41:39
+  irregularities: []
+  segment_id: P3-0123_ci2
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0123_s27
+    - P3-0123_s28
+    - P3-0123_s30
+    - P3-0123_s31
+    - P3-0123_s33
+    - P3-0123_s34
+    - P3-0123_s35
+    - P3-0123_s36
+    - P3-0123_s37
+    BAD: []
+    UGLY:
+    - P3-0123_s29
+    - P3-0123_s32
+    - P3-0123_s38

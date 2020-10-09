@@ -1,0 +1,132 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0220
+name: RF07
+events: []
+remarks: []
+date: 2020-02-04
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-02-04 13:19:52
+landing: 2020-02-04 21:54:08
+version: v0.5
+segments:
+- name: circle 1
+  start: 2020-02-04 14:23:45
+  end: 2020-02-04 15:20:28
+  irregularities: []
+  segment_id: P3-0204_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0204_s06
+    - P3-0204_s07
+    - P3-0204_s08
+    - P3-0204_s09
+    - P3-0204_s10
+    - P3-0204_s11
+    - P3-0204_s12
+    - P3-0204_s13
+    - P3-0204_s15
+    - P3-0204_s16
+    - P3-0204_s17
+    BAD: []
+    UGLY:
+    - P3-0204_s14
+- name: isotope profiles
+  start: 2020-02-04 15:21:00
+  end: 2020-02-04 15:46:00
+  irregularities: []
+  segment_id: P3-0204_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD:
+    - P3-0204_s18
+    BAD: []
+    UGLY: []
+- name: cloud module 1
+  start: 2020-02-04 15:50:00
+  end: 2020-02-04 17:00:00
+  irregularities: []
+  segment_id: P3-0204_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0204_s20
+    - P3-0204_s21
+    - P3-0204_s22
+    - P3-0204_s23
+    BAD:
+    - P3-0204_s19
+    UGLY: []
+- name: transit to cloud module 2
+  start: 2020-02-04 17:30:00
+  end: 2020-02-04 17:50:00
+  irregularities: []
+  segment_id: P3-0204_tr1
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud module 2
+  start: 2020-02-04 18:00:00
+  end: 2020-02-04 19:10:00
+  irregularities: []
+  segment_id: P3-0204_cl2
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0204_s25
+    - P3-0204_s26
+    - P3-0204_s27
+    BAD: []
+    UGLY:
+    - P3-0204_s24
+- name: transit to cloud module 3
+  start: 2020-02-04 19:10:00
+  end: 2020-02-04 19:40:00
+  irregularities: []
+  segment_id: P3-0204_tr2
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud module 3
+  start: 2020-02-04 19:40:00
+  end: 2020-02-04 21:00:00
+  irregularities: []
+  segment_id: P3-0204_cl3
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0204_s28
+    - P3-0204_s29
+    - P3-0204_s30
+    - P3-0204_s31
+    BAD: []
+    UGLY: []

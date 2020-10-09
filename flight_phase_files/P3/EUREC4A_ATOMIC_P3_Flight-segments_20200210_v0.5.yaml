@@ -1,0 +1,127 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0220
+name: RF10
+events: []
+remarks: []
+date: 2020-02-10
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-02-10 01:48:57
+landing: 2020-02-10 09:54:42
+version: v0.5
+segments:
+- name: cloud module 1
+  start: 2020-02-10 02:07:00
+  end: 2020-02-10 03:51:00
+  irregularities: []
+  segment_id: P3-0210_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0210_s01
+    - P3-0210_s02
+    - P3-0210_s03
+    - P3-0210_s04
+    BAD: []
+    UGLY: []
+- name: circle 1
+  start: 2020-02-10 04:17:25
+  end: 2020-02-10 05:24:44
+  irregularities: []
+  segment_id: P3-0210_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0210_s05
+    - P3-0210_s08
+    - P3-0210_s09
+    - P3-0210_s11
+    - P3-0210_s14
+    - P3-0210_s15
+    - P3-0210_s16
+    BAD:
+    - P3-0210_s10
+    - P3-0210_s12
+    UGLY:
+    - P3-0210_s06
+    - P3-0210_s07
+    - P3-0210_s13
+- name: Transit to circle 2
+  start: 2020-02-10 05:24:44
+  end: 2020-02-10 05:45:43
+  irregularities: []
+  segment_id: P3-0210_tr1
+  kinds:
+  - transit
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 2
+  start: 2020-02-10 05:45:43
+  end: 2020-02-10 06:42:00
+  irregularities: []
+  segment_id: P3-0210_ci2
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0210_s17
+    - P3-0210_s18
+    - P3-0210_s19
+    - P3-0210_s20
+    - P3-0210_s21
+    - P3-0210_s22
+    - P3-0210_s23
+    - P3-0210_s24
+    - P3-0210_s26
+    - P3-0210_s27
+    - P3-0210_s28
+    BAD:
+    - P3-0210_s25
+    UGLY: []
+- name: isotope profiles
+  start: 2020-02-10 06:42:00
+  end: 2020-02-10 07:10:00
+  irregularities: []
+  segment_id: P3-0210_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud module 2
+  start: 2020-02-10 07:12:00
+  end: 2020-02-10 09:02:00
+  irregularities: []
+  segment_id: P3-0210_cl2
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0210_s29
+    - P3-0210_s30
+    - P3-0210_s31
+    - P3-0210_s32
+    BAD: []
+    UGLY: []

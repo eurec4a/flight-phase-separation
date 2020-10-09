@@ -1,0 +1,152 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0120
+name: RF05
+events: []
+remarks: []
+date: 2020-01-31
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-01-31 15:32:27
+landing: 2020-01-31 23:36:04
+version: v0.5
+segments:
+- name: ascent to transit altitude
+  start: 2020-01-31 15:32:30
+  end: 2020-01-31 15:56:00
+  irregularities: []
+  segment_id: P3-0131_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 1
+  start: 2020-01-31 16:24:10
+  end: 2020-01-31 17:19:54
+  irregularities: []
+  segment_id: P3-0131_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0131_s03
+    - P3-0131_s04
+    - P3-0131_s05
+    - P3-0131_s06
+    - P3-0131_s09
+    - P3-0131_s10
+    - P3-0131_s11
+    BAD:
+    - P3-0131_s12
+    UGLY:
+    - P3-0131_s01
+    - P3-0131_s02
+    - P3-0131_s07
+    - P3-0131_s08
+- name: isotope profile descending
+  start: 2020-01-31 17:21:00
+  end: 2020-01-31 17:43:45
+  irregularities: []
+  segment_id: P3-0131_pr2
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: isotope profile ascending
+  start: 2020-01-31 17:43:45
+  end: 2020-01-31 17:57:00
+  irregularities: []
+  segment_id: P3-0131_pr3
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: AXBT pattern
+  start: 2020-01-31 18:11:30
+  end: 2020-01-31 19:43:30
+  irregularities: []
+  segment_id: P3-0131_ax1
+  kinds:
+  - axbt
+  dropsondes:
+    GOOD:
+    - P3-0131_s15
+    - P3-0131_s16
+    - P3-0131_s17
+    - P3-0131_s18
+    - P3-0131_s19
+    - P3-0131_s20
+    BAD:
+    - P3-0131_s14
+    UGLY: []
+- name: cloud 1
+  start: 2020-01-31 19:43:30
+  end: 2020-01-31 21:05:30
+  irregularities: []
+  segment_id: P3-0131_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: ascent to second cloud pattern
+  start: 2020-01-31 21:05:30
+  end: 2020-01-31 21:12:00
+  irregularities: []
+  segment_id: P3-0131_pr4
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud 2
+  start: 2020-01-31 21:12:00
+  end: 2020-01-31 22:33:05
+  irregularities: []
+  segment_id: P3-0131_cl2
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0131_s21
+    - P3-0131_s22
+    - P3-0131_s25
+    BAD: []
+    UGLY:
+    - P3-0131_s23
+    - P3-0131_s24
+- name: ascent to transit altitude for return to Barbados
+  start: 2020-01-31 22:33:05
+  end: 2020-01-31 22:47:00
+  irregularities: []
+  segment_id: P3-0131_pr5
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
