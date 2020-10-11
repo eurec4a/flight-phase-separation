@@ -17,7 +17,7 @@ def validate(segment_file, sonde_info):
 
     flight_warnings = list(checker.check_flight(flightdata))
     for warning in flight_warnings:
-        flightlogger.warn(warning)
+        flightlogger.warning(warning)
 
     navdata = get_navdata(flightdata["platform"], flightdata["flight_id"]).load()
 
@@ -36,7 +36,9 @@ def validate(segment_file, sonde_info):
 
         warnings = list(checker.check_segment(seg, seg_navdata, sondes_by_flag))
         for warning in warnings:
-            segmentlogger.warn(warning)
+            if "segment_id" in seg:
+                segmentlogger.warning(seg["segment_id"])
+            segmentlogger.warning(warning)
 
         segment_warning_count += len(warnings)
 

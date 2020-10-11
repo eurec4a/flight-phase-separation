@@ -39,7 +39,7 @@ segments:
     BAD: []
     UGLY: []
 - name: circle 1
-  start: 2020-01-19 14:35:15
+  start: 2020-01-19 14:36:02
   end: 2020-01-19 15:30:30
   irregularities: []
   segment_id: P3-0119_ci1

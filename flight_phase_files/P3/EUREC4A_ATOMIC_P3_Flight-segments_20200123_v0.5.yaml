@@ -138,7 +138,7 @@ segments:
     BAD: []
     UGLY: []
 - name: circle 2
-  start: 2020-01-23 19:45:00
+  start: 2020-01-23 19:45:36
   end: 2020-01-23 20:41:39
   irregularities: []
   segment_id: P3-0123_ci2
