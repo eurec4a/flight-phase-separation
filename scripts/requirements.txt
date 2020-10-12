@@ -6,7 +6,7 @@ xarray
 requests
 aiohttp
 intake
-git+https://github.com/intake/intake-xarray@master#egg=intake-xarray
+intake-xarray>=0.3.2
 pydap
 
 # for decoration

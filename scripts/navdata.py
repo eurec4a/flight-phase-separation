@@ -26,8 +26,30 @@ def get_navdata_HALO(flight):
         "heading": ds.IRS_HDG,
     })
 
+def get_navdata_P3(flight):
+    """
+    :param flight: flight id
+    """
+    import xarray as xr
+    from intake import open_catalog
+    if "P3" not in _catalog_cache:
+        _catalog_cache["P3"] = open_catalog("https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml")
+
+    catalog = _catalog_cache["P3"]
+    fl = catalog.p3.flight_level[flight].to_dask()
+    return xr.Dataset({
+        "time":    fl.time,
+        "lat":     fl.lat,
+        "lon":     fl.lon,
+        "alt":     fl.alt,
+        "roll":    fl.roll,
+        "pitch":   fl.pitch,
+        "heading": fl.cog,
+    })
+
 NAVDATA_GETTERS = {
     "HALO": get_navdata_HALO,
+    "P3":   get_navdata_P3,
 }
 
 def get_navdata(platform, flight):

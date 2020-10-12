@@ -1,0 +1,128 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0124
+name: RF04
+events: []
+remarks: []
+date: 2020-01-24
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-01-24 13:21:05
+landing: 2020-01-24 22:14:32
+version: v0.5
+segments:
+- name: ascent for transit
+  start: 2020-01-24 13:21:05
+  end: 2020-01-24 13:28:30
+  irregularities: []
+  segment_id: P3-0124_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 1
+  start: 2020-01-24 13:35:00
+  end: 2020-01-24 14:47:42
+  irregularities: []
+  segment_id: P3-0124_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: circle 2
+  start: 2020-01-24 14:47:42
+  end: 2020-01-24 15:58:48
+  irregularities: []
+  segment_id: P3-0124_ci2
+  kinds:
+  - circle
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: half-circle 3
+  start: 2020-01-24 15:58:48
+  end: 2020-01-24 16:34:30
+  irregularities: []
+  segment_id: P3-0124_ci3
+  kinds:
+  - circle
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: isotope profile descending
+  start: 2020-01-24 16:37:30
+  end: 2020-01-24 16:48:00
+  irregularities: []
+  segment_id: P3-0124_pr2
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud 1
+  start: 2020-01-24 16:48:00
+  end: 2020-01-24 18:44:00
+  irregularities: []
+  segment_id: P3-0124_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0124_s01
+    - P3-0124_s02
+    - P3-0124_s03
+    BAD: []
+    UGLY: []
+- name: cloud 2
+  start: 2020-01-24 19:13:00
+  end: 2020-01-24 21:16:00
+  irregularities: []
+  segment_id: P3-0124_cl2
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0124_s09
+    - P3-0124_s10
+    - P3-0124_s11
+    - P3-0124_s12
+    - P3-0124_s13
+    - P3-0124_s14
+    - P3-0124_s15
+    - P3-0124_s16
+    BAD: []
+    UGLY: []
+- name: ascent for transit to Barbados
+  start: 2020-01-24 21:16:00
+  end: 2020-01-24 21:28:00
+  irregularities: []
+  segment_id: P3-0124_pr3
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
