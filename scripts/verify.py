@@ -56,7 +56,7 @@ def _main():
 
     basedir = os.path.abspath(os.path.dirname(__file__))
 
-    # import tqdm
+    import tqdm
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("infiles", type=str, nargs="+")
@@ -66,8 +66,7 @@ def _main():
     sonde_info = yaml.load(open(args.sonde_info), Loader=yaml.SafeLoader)
 
     total_warnings = 0
-    # for filename in tqdm.tqdm(args.infiles):
-    for filename in args.infiles:
+    for filename in tqdm.tqdm(args.infiles):
         mainlogger.info("verifying %s", filename)
         try:
             flight_warning_count, segment_warning_count = validate(
