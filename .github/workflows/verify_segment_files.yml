@@ -3,7 +3,7 @@ name: Validate segment files
 on: [push, pull_request]
 
 jobs:
-  build:
+  validation:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2

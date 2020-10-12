@@ -42,6 +42,7 @@ def validate(segment_file, sonde_info):
 
         segment_warning_count += len(warnings)
 
+    navdata.close()
     return len(flight_warnings), segment_warning_count
 
 
