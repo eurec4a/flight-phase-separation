@@ -6,7 +6,7 @@ xarray
 requests
 aiohttp
 intake
-intake-xarray
+intake-xarray>=0.3.2
 pydap
 
 # for decoration
