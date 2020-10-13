@@ -13,72 +13,86 @@ remarks:
   or H2O_LICOR.
 segments:
 - kinds:
-  - level
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
+  start: 2020-02-15 16:54:05
+  end: 2020-02-15 17:09:05
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
+  start: 2020-02-15 17:10:27
+  end: 2020-02-15 17:24:32
 - kinds:
-  - profile
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0354_
-  start: 2020-02-15 16:49:25
-  end: 2020-02-15 16:49:25
+  start: 2020-02-15 17:24:32
+  end: 2020-02-15 17:41:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 17:41:48
+  end: 2020-02-15 17:55:25
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 17:58:09
+  end: 2020-02-15 18:11:19
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 18:13:36
+  end: 2020-02-15 18:26:46
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 18:28:08
+  end: 2020-02-15 18:43:07
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 18:46:18
+  end: 2020-02-15 19:08:34
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 19:09:55
+  end: 2020-02-15 19:29:28
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 19:30:22
+  end: 2020-02-15 19:46:43
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 19:46:43
+  end: 2020-02-15 19:56:16
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0354_
+  start: 2020-02-15 19:58:59
+  end: 2020-02-15 20:17:37

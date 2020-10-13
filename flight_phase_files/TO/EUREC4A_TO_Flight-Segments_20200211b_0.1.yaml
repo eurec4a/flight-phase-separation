@@ -1,12 +1,12 @@
-name: RF19
+name: RF20
 mission: EUREC4A
 platform: TO
-flight_id: TO-0348
+flight_id: TO-0349
 contacts: []
 date: 2020-02-11
 flight_report: ''
-takeoff: 2020-02-11 12:14:59
-landing: 2020-02-11 16:09:23
+takeoff: 2020-02-11 17:39:42
+landing: 2020-02-11 21:24:02
 events: []
 remarks:
 - HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
@@ -16,76 +16,90 @@ segments:
   - level
   name: ''
   irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
+  segment_id: TO-0349_
+  start: 2020-02-11 18:05:55
+  end: 2020-02-11 18:31:55
 - kinds:
   - profile
   name: ''
   irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
+  segment_id: TO-0349_
+  start: 2020-02-11 18:31:01
+  end: 2020-02-11 18:40:26
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 18:39:59
+  end: 2020-02-11 19:03:17
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 19:06:25
+  end: 2020-02-11 19:30:11
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 19:31:58
+  end: 2020-02-11 19:43:10
 - kinds:
   - profile
   name: ''
   irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
+  segment_id: TO-0349_
+  start: 2020-02-11 19:42:17
+  end: 2020-02-11 19:47:12
 - kinds:
-  - sawtooth
+  - level
   name: ''
   irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
+  segment_id: TO-0349_
+  start: 2020-02-11 19:46:46
+  end: 2020-02-11 19:54:50
 - kinds:
-  - sawtooth
+  - level
   name: ''
   irregularities: []
-  segment_id: TO-0348_
-  start: 2020-02-11 12:32:44
-  end: 2020-02-11 12:32:44
+  segment_id: TO-0349_
+  start: 2020-02-11 19:57:04
+  end: 2020-02-11 20:08:43
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 20:08:43
+  end: 2020-02-11 20:11:24
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 20:11:24
+  end: 2020-02-11 20:29:47
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 20:28:53
+  end: 2020-02-11 20:32:55
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 20:32:55
+  end: 2020-02-11 20:49:57
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0349_
+  start: 2020-02-11 20:49:57
+  end: 2020-02-11 21:19:32

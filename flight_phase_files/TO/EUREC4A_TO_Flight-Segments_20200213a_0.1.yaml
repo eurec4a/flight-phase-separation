@@ -17,96 +17,117 @@ segments:
   name: ''
   irregularities: []
   segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
+  start: 2020-02-13 12:00:41
+  end: 2020-02-13 12:16:09
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
+  start: 2020-02-13 12:15:41
+  end: 2020-02-13 12:24:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 12:25:41
+  end: 2020-02-13 12:59:47
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
+  start: 2020-02-13 12:59:47
+  end: 2020-02-13 13:03:26
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 13:02:04
+  end: 2020-02-13 13:13:53
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 13:17:31
+  end: 2020-02-13 13:36:37
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 13:37:59
+  end: 2020-02-13 13:49:21
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 13:52:05
+  end: 2020-02-13 14:01:10
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:04:21
+  end: 2020-02-13 14:19:49
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0350_
-  start: 2020-02-13 11:55:33
-  end: 2020-02-13 11:55:33
+  start: 2020-02-13 14:20:16
+  end: 2020-02-13 14:24:49
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:26:11
+  end: 2020-02-13 14:31:11
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:29:49
+  end: 2020-02-13 14:34:22
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:33:27
+  end: 2020-02-13 14:41:11
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:47:06
+  end: 2020-02-13 14:58:55
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 14:58:55
+  end: 2020-02-13 15:02:06
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 15:01:39
+  end: 2020-02-13 15:05:17
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0350_
+  start: 2020-02-13 15:08:28
+  end: 2020-02-13 15:23:01

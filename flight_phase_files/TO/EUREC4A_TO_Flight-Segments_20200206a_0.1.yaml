@@ -17,47 +17,82 @@ segments:
   name: ''
   irregularities: []
   segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
-- kinds:
-  - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
-- kinds:
-  - calibration
-  name: ''
-  irregularities: []
-  segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
+  start: 2020-02-06 14:22:39
+  end: 2020-02-06 14:47:44
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
+  start: 2020-02-06 14:46:49
+  end: 2020-02-06 14:50:01
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 14:50:01
+  end: 2020-02-06 15:00:58
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 15:03:15
+  end: 2020-02-06 15:48:52
 - kinds:
   - profile
   name: ''
   irregularities: []
   segment_id: TO-0342_
-  start: 2020-02-06 14:16:35
-  end: 2020-02-06 14:16:35
+  start: 2020-02-06 15:48:24
+  end: 2020-02-06 15:52:03
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 15:51:36
+  end: 2020-02-06 16:40:52
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 16:41:19
+  end: 2020-02-06 16:48:37
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 16:49:04
+  end: 2020-02-06 16:56:22
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 16:55:55
+  end: 2020-02-06 17:04:08
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 17:04:08
+  end: 2020-02-06 17:10:03
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 17:11:53
+  end: 2020-02-06 17:26:01
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_
+  start: 2020-02-06 17:26:29
+  end: 2020-02-06 17:42:27
