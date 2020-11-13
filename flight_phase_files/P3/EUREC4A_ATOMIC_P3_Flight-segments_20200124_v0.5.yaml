@@ -41,7 +41,8 @@ segments:
 - name: circle 1
   start: 2020-01-24 13:35:00
   end: 2020-01-24 14:47:42
-  irregularities: []
+  irregularities: 
+  - TTFS circle without any sondes 
   segment_id: P3-0124_ci1
   kinds:
   - circle
@@ -52,7 +53,8 @@ segments:
 - name: circle 2
   start: 2020-01-24 14:47:42
   end: 2020-01-24 15:58:48
-  irregularities: []
+  irregularities: 
+  - TTFS circle without any sondes 
   segment_id: P3-0124_ci2
   kinds:
   - circle
@@ -63,7 +65,8 @@ segments:
 - name: half-circle 3
   start: 2020-01-24 15:58:48
   end: 2020-01-24 16:34:30
-  irregularities: []
+  irregularities: 
+  - TTFS circle without any sondes 
   segment_id: P3-0124_ci3
   kinds:
   - circle
