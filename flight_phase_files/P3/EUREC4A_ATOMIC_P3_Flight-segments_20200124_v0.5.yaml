@@ -67,6 +67,7 @@ segments:
   end: 2020-01-24 16:34:30
   irregularities: 
   - planned sondeless circle
+  - circle does not fulfil the definition of 360 degree
   segment_id: P3-0124_ci3
   kinds:
   - circle
