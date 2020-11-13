@@ -60,3 +60,16 @@ HALO uses the following sub-kinds of the `calibration` kind:
 ## Conventions
 Flight segmentation is designed to be flexible and unstructured, but we propose that data providers follow the convention that
 _a time or time window may not belong to more than one segment of the same kind_
+
+## Handling of time ranges
+
+Time ranges are defined as semi-open intervals. So the start time is part of the time range while the end time is excluded from the range. This way, it is possible to define exactly consecutive segments without any ambiguities regarding the instance in between.
+
+## Segment irregularities
+
+If some irregularities are found within a segment (i.e. a diversion from the planned route, starting time of a circle not one minute before a sonde), these should be recorded in the `irregularities` field. In general, this field is meant to be a free text field, such that people using the dataset get a proper explanation. However, for automatic checking it may also be useful to have some standardized *irregularity tags* which can be interpreted by a script. These tags should be prepended to the explanatory string of the irregularity.
+
+Currently the following *irregularity tags* are in use:
+
+* `TTFS`: **T**ime **T**o **F**irst **S**onde is (on purpose) not one minute
+* `SAM`: **S**onde **A**dded **M**anually: association of sondes to segments is (on purpose) not as suggested by launch time and segment times
