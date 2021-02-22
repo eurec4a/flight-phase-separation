@@ -5,7 +5,7 @@ pyyaml
 xarray
 requests
 aiohttp
-intake
+intake[dataframe] # since intake 0.6.1 to_dask() doesn't work anymore without the [dataframe] specification due to a missing msgpack dependency
 intake-xarray>=0.3.2
 pydap
 
