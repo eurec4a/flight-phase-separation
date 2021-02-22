@@ -159,6 +159,7 @@ segments:
   irregularities:
   - ascend from 10.4 km to 11.2 km at circle start
   - SAM HALO-0215_s32 sonde added manually, released before traffic diversion
+  - One sonde HALO-0215_s44 overlaps with next segment (HALO-0215_s6) as per plan
   segment_id: HALO-0215_c5
   start: 2020-02-15 21:48:22
   end: 2020-02-15 22:46:43
@@ -185,13 +186,15 @@ segments:
   irregularities:
   - TTFS starts 63 seconds prior to first dropsonde to get as close to a full circle as possible
   - early circle exit after 306 degrees
-  - Only 7 dropsondes
+  - Only 8 dropsondes
+  - SAM HALO-0215_s44 overlaps with previous segment (HALO-0215_s5) as per plan
   - Change from FL350 to FL180 at circle end.
   segment_id: HALO-0215_c6
   start: 2020-02-15 22:46:43
   end: 2020-02-15 23:35:07
   dropsondes:
     GOOD:
+    - HALO-0215_s44
     - HALO-0215_s46
     - HALO-0215_s47
     - HALO-0215_s48
