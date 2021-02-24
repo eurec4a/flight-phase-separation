@@ -99,6 +99,7 @@ segments:
   - TTFS starts at launch-time of first dropsonde due to high roll before
   - circle ranges over only 359.5 deg in heading
   - change from FL370 to FL180
+  - NONSTD 620 km upstream of regular circle location, center ca. 13.8999, -52.0352, radius 111 km
   segment_id: HALO-0215_c3
   start: 2020-02-15 18:17:29
   end: 2020-02-15 19:22:05

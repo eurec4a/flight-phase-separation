@@ -61,6 +61,7 @@ segments:
   name: circle 1
   irregularities:
   - TTFS Start of circle directly with first dropsonde, roll angle around 4 deg in beginning
+  - NONSTD circle radius is only 92.5 km, western edge aligns with standard circle, center ca. 13.2858, -57.8989
   segment_id: HALO-0119_c1
   start: 2020-01-19 17:33:12
   end: 2020-01-19 18:24:15
