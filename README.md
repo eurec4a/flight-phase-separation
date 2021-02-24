@@ -73,3 +73,4 @@ Currently the following *irregularity tags* are in use:
 
 * `TTFS`: **T**ime **T**o **F**irst **S**onde is (on purpose) not one minute
 * `SAM`: **S**onde **A**dded **M**anually: association of sondes to segments is (on purpose) not as suggested by launch time and segment times
+* * `NONSTD`: segment is not at its usual location or size (only added if there is a usual location or size for this segment `kind` on that `platform`)
