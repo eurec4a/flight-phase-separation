@@ -99,6 +99,7 @@ segments:
   - TTFS starts at launch-time of first dropsonde due to high roll before
   - circle ranges over only 359.5 deg in heading
   - change from FL370 to FL180
+  - NONSTD 620 km upstream of regular circle location, center ca. 13.8999, -52.0352, radius 111 km
   segment_id: HALO-0215_c3
   start: 2020-02-15 18:17:29
   end: 2020-02-15 19:22:05
@@ -133,7 +134,7 @@ segments:
   - circle
   name: circle 4
   irregularities:
-  - TTFS circle without any sondes due to lack of dropsonde during final research flight
+  - planned sondeless circle
   segment_id: HALO-0215_c4
   start: 2020-02-15 20:11:45
   end: 2020-02-15 21:19:40
@@ -159,6 +160,7 @@ segments:
   irregularities:
   - ascend from 10.4 km to 11.2 km at circle start
   - SAM HALO-0215_s32 sonde added manually, released before traffic diversion
+  - One sonde HALO-0215_s44 overlaps with next segment (HALO-0215_s6) as per plan
   segment_id: HALO-0215_c5
   start: 2020-02-15 21:48:22
   end: 2020-02-15 22:46:43
@@ -185,13 +187,15 @@ segments:
   irregularities:
   - TTFS starts 63 seconds prior to first dropsonde to get as close to a full circle as possible
   - early circle exit after 306 degrees
-  - Only 7 dropsondes
+  - Only 8 dropsondes
+  - SAM HALO-0215_s44 overlaps with previous segment (HALO-0215_s5) as per plan
   - Change from FL350 to FL180 at circle end.
   segment_id: HALO-0215_c6
   start: 2020-02-15 22:46:43
   end: 2020-02-15 23:35:07
   dropsondes:
     GOOD:
+    - HALO-0215_s44
     - HALO-0215_s46
     - HALO-0215_s47
     - HALO-0215_s48

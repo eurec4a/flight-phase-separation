@@ -1,0 +1,109 @@
+campaign: EUREC4A
+project: ATOMIC
+platform: P3
+contacts:
+- name: Robert Pincus
+  email: Robert.Pincus@colorado.edu
+  tags:
+  - sc
+  - dp
+- name: Adriana Bailey
+  email: abailey@ucar.edu
+  tags:
+  - sc
+  - dp
+- name: Chris Fairall
+  email: Chris.Fairall@noaa.gov
+  tags:
+  - cs
+  - pi
+flight_id: P3-0205
+name: RF08
+events: []
+remarks: []
+date: 2020-02-05
+flight_report: https://observations.ipsl.fr/aeris/eurec4a-data/REPORTS/WP-3D/2020/TO-COME.pdf
+takeoff: 2020-02-05 13:22:23
+landing: 2020-02-05 21:59:43
+version: v0.5
+segments:
+- name: circle 1
+  start: 2020-02-05 14:40:29
+  end: 2020-02-05 15:38:00
+  irregularities: []
+  segment_id: P3-0205_ci1
+  kinds:
+  - circle
+  dropsondes:
+    GOOD:
+    - P3-0205_s06
+    - P3-0205_s08
+    - P3-0205_s09
+    - P3-0205_s10
+    - P3-0205_s11
+    - P3-0205_s12
+    - P3-0205_s13
+    - P3-0205_s14
+    - P3-0205_s15
+    - P3-0205_s16
+    BAD: []
+    UGLY:
+    - P3-0205_s05
+    - P3-0205_s07
+- name: isotope profiles
+  start: 2020-02-05 15:45:00
+  end: 2020-02-05 16:05:00
+  irregularities: []
+  segment_id: P3-0205_pr1
+  kinds:
+  - profile
+  dropsondes:
+    GOOD: []
+    BAD: []
+    UGLY: []
+- name: cloud module 1
+  start: 2020-02-05 16:05:00
+  end: 2020-02-05 17:50:00
+  irregularities: []
+  segment_id: P3-0205_cl1
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0205_s17
+    - P3-0205_s18
+    - P3-0205_s20
+    BAD: []
+    UGLY:
+    - P3-0205_s19
+- name: cloud module 2
+  start: 2020-02-05 17:50:00
+  end: 2020-02-05 19:15:00
+  irregularities: []
+  segment_id: P3-0205_cl2
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0205_s22
+    - P3-0205_s24
+    BAD: []
+    UGLY:
+    - P3-0205_s21
+    - P3-0205_s23
+- name: cloud module 3
+  start: 2020-02-05 19:15:00
+  end: 2020-02-05 21:05:00
+  irregularities: []
+  segment_id: P3-0205_cl3
+  kinds:
+  - cloud
+  dropsondes:
+    GOOD:
+    - P3-0205_s26
+    - P3-0205_s27
+    - P3-0205_s28
+    - P3-0205_s29
+    BAD: []
+    UGLY:
+    - P3-0205_s25

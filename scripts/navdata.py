@@ -14,7 +14,7 @@ def get_navdata_HALO(flight):
         _catalog_cache["HALO"] = open_catalog("https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml")
 
     catalog = _catalog_cache["HALO"]
-    bahamas = catalog.halo.bahamas.ql.by_flight_id[flight].to_dask()
+    bahamas = catalog.HALO.BAHAMAS.QL[flight].to_dask()
     ds = bahamas.rename({"tid": "time"})
     return xr.Dataset({
         "time": ds.TIME,
@@ -24,6 +24,27 @@ def get_navdata_HALO(flight):
         "roll": ds.IRS_PHI,
         "pitch": ds.IRS_THE,
         "heading": ds.IRS_HDG,
+    })
+
+def get_navdata_P3(flight):
+    """
+    :param flight: flight id
+    """
+    import xarray as xr
+    from intake import open_catalog
+    if "P3" not in _catalog_cache:
+        _catalog_cache["P3"] = open_catalog("https://raw.githubusercontent.com/eurec4a/eurec4a-intake/master/catalog.yml")
+
+    catalog = _catalog_cache["P3"]
+    fl = catalog.P3.flight_level[flight].to_dask()
+    return xr.Dataset({
+        "time":    fl.time,
+        "lat":     fl.lat,
+        "lon":     fl.lon,
+        "alt":     fl.alt,
+        "roll":    fl.roll,
+        "pitch":   fl.pitch,
+        "heading": fl.cog,
     })
 
 def get_navdata_TO(nav_data):
@@ -49,6 +70,7 @@ def get_navdata_TO(nav_data):
 
 NAVDATA_GETTERS = {
     "HALO": get_navdata_HALO,
+    "P3":   get_navdata_P3,
     "TO": get_navdata_TO,
 }
 
