@@ -26,8 +26,30 @@ def get_navdata_HALO(flight):
         "heading": ds.IRS_HDG,
     })
 
+def get_navdata_TO(nav_data):
+    """
+    :param nav_data: flight id
+    """
+    import pathlib
+    import xarray as xr
+    import twinotter
+
+    ds = twinotter.load_flight(nav_data)
+    ds = ds.rename(dict(Time="time"))
+
+    return xr.Dataset({
+        "time": ds.time,
+        "lat": ds.LAT_OXTS,
+        "lon": ds.LON_OXTS,
+        "alt": ds.ALT_OXTS,
+        "roll": ds.ROLL_OXTS,
+        "pitch": ds.PTCH_OXTS,
+        "heading": ds.HDG_OXTS,
+    })
+
 NAVDATA_GETTERS = {
     "HALO": get_navdata_HALO,
+    "TO": get_navdata_TO,
 }
 
 def get_navdata(platform, flight):
