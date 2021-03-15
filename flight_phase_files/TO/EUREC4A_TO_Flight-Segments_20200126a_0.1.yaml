@@ -13,91 +13,91 @@ remarks:
   or H2O_LICOR.
 segments:
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 12:01:17
   end: 2020-01-26 12:16:06
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 12:16:06
   end: 2020-01-26 12:27:21
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 12:27:51
   end: 2020-01-26 12:37:34
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 12:39:06
   end: 2020-01-26 12:42:10
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 12:43:42
   end: 2020-01-26 12:54:26
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 13:01:35
   end: 2020-01-26 13:17:26
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 13:25:06
   end: 2020-01-26 13:36:51
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 13:39:24
   end: 2020-01-26 13:48:36
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 13:48:36
   end: 2020-01-26 14:01:23
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 14:02:24
   end: 2020-01-26 14:11:06
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 14:11:06
   end: 2020-01-26 15:12:25
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0332_
   start: 2020-01-26 15:11:24
   end: 2020-01-26 15:35:56
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0332_

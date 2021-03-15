@@ -13,126 +13,126 @@ remarks:
   or H2O_LICOR.
 segments:
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 13:42:54
   end: 2020-01-28 13:49:27
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 13:49:58
   end: 2020-01-28 13:59:02
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:00:32
   end: 2020-01-28 14:11:37
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:12:38
   end: 2020-01-28 14:23:12
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:23:12
   end: 2020-01-28 14:25:13
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:25:13
   end: 2020-01-28 14:54:57
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:53:56
   end: 2020-01-28 14:55:57
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 14:58:28
   end: 2020-01-28 15:22:39
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 15:23:39
   end: 2020-01-28 15:25:40
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 15:26:11
   end: 2020-01-28 15:55:24
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 15:56:54
   end: 2020-01-28 16:01:56
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:02:57
   end: 2020-01-28 16:06:59
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:09:00
   end: 2020-01-28 16:16:03
 - kinds:
-  - Sawtooth
+  - sawtooth
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:17:03
   end: 2020-01-28 16:32:10
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:32:10
   end: 2020-01-28 16:39:13
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:40:44
   end: 2020-01-28 16:43:45
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_
   start: 2020-01-28 16:44:46
   end: 2020-01-28 16:59:52
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0334_

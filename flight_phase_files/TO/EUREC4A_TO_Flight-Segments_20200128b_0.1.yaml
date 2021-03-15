@@ -13,14 +13,14 @@ remarks:
   or H2O_LICOR.
 segments:
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 18:47:29
   end: 2020-01-28 18:56:06
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
@@ -34,98 +34,98 @@ segments:
   start: 2020-01-28 18:55:38
   end: 2020-01-28 18:56:35
 - kinds:
-  - Profile
+  - profile
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 19:04:44
   end: 2020-01-28 19:10:29
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 19:10:58
   end: 2020-01-28 19:21:02
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 19:22:28
   end: 2020-01-28 19:27:44
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 19:29:11
   end: 2020-01-28 19:31:34
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 19:33:01
   end: 2020-01-28 20:20:57
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:22:52
   end: 2020-01-28 20:24:47
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:26:13
   end: 2020-01-28 20:32:27
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:34:50
   end: 2020-01-28 20:37:14
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:39:38
   end: 2020-01-28 20:44:54
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:46:21
   end: 2020-01-28 20:54:01
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 20:55:27
   end: 2020-01-28 21:09:50
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 21:13:11
   end: 2020-01-28 21:28:03
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
   start: 2020-01-28 21:29:29
   end: 2020-01-28 21:44:20
 - kinds:
-  - Transit
+  - level
   name: ''
   irregularities: []
   segment_id: TO-0335_
