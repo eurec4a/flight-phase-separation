@@ -1,0 +1,119 @@
+name: RF09
+mission: EUREC4A
+platform: TO
+flight_id: TO-0338
+contacts: []
+date: 2020-01-31
+flight_report: ''
+takeoff: 2020-01-31 18:24:57
+landing: 2020-01-31 22:30:56
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 18:48:45
+  end: 2020-01-31 19:02:49
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 19:16:53
+  end: 2020-01-31 19:32:30
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 19:38:14
+  end: 2020-01-31 19:52:18
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 19:52:49
+  end: 2020-01-31 20:13:39
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 20:13:39
+  end: 2020-01-31 20:22:31
+- kinds:
+  - sawtooth
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 20:16:47
+  end: 2020-01-31 20:28:14
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 20:32:56
+  end: 2020-01-31 20:40:44
+- kinds:
+  - sawtooth
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 20:40:44
+  end: 2020-01-31 21:04:11
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 21:12:00
+  end: 2020-01-31 21:19:49
+- kinds:
+  - sawtooth
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 21:20:20
+  end: 2020-01-31 21:27:06
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 21:30:14
+  end: 2020-01-31 21:46:54
+- kinds:
+  - sawtooth
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 21:45:20
+  end: 2020-01-31 22:06:41
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 22:07:13
+  end: 2020-01-31 22:10:20
+- kinds:
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 22:09:49
+  end: 2020-01-31 22:21:17
+- kinds:
+  - profile
+  name: ''
+  irregularities: []
+  segment_id: TO-0338_
+  start: 2020-01-31 22:21:17
+  end: 2020-01-31 22:24:55

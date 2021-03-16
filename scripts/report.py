@@ -1,3 +1,9 @@
+"""
+Usage:
+    report.py <infile.yml> <outfile.html> [-s <sondes.yml>]
+"""
+
+
 import os
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 import yaml
@@ -198,6 +204,7 @@ def _main():
     parser.add_argument("infile")
     parser.add_argument("outfile")
     parser.add_argument("-s", "--sonde_info", help="sonde info yaml file", default=os.path.join(basedir, "sondes.yaml"))
+    parser.add_argument("-n", "--nav_data", help="local file with flight coordinates", default=None)
     args = parser.parse_args()
 
     flightdata = yaml.load(open(args.infile), Loader=yaml.SafeLoader)
@@ -214,7 +221,10 @@ def _main():
         sonde_info = []
         global_warnings.append("no sonde_info is specified, using data from unified dataset")
 
-    navdata = get_navdata(platform, flight_id).load()
+    if args.nav_data is None:
+        navdata = get_navdata(platform, flight_id).load()
+    else:
+        navdata = get_navdata(platform, args.nav_data).load()
 
     sonde_info = [s for s in sonde_info if s["platform"] == platform]
     sondes_by_id = {s["sonde_id"]: s for s in sonde_info}
