@@ -134,7 +134,7 @@ segments:
   - circle
   name: circle 4
   irregularities:
-  - planned sondeless circle
+  - NONSTD planned sondeless circle
   segment_id: HALO-0215_c4
   start: 2020-02-15 20:11:45
   end: 2020-02-15 21:19:40
