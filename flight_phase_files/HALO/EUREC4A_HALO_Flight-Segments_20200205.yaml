@@ -55,7 +55,7 @@ segments:
     - HALO-0205_s16
     - HALO-0205_s17
     - HALO-0205_s18
-    - HALO-0205_s20
+    - HALO-0205_s19
     - HALO-0205_s21
     - HALO-0205_s23
     - HALO-0205_s24
@@ -72,7 +72,7 @@ segments:
     - HALO-0205_s37
     - HALO-0205_s38
     BAD:
-    - HALO-0205_s19
+    - HALO-0205_s20
     - HALO-0205_s22
     - HALO-0205_s25
     UGLY:
@@ -127,13 +127,13 @@ segments:
     - HALO-0205_s16
     - HALO-0205_s17
     - HALO-0205_s18
-    - HALO-0205_s20
+    - HALO-0205_s19
     - HALO-0205_s21
     - HALO-0205_s23
     - HALO-0205_s24
     - HALO-0205_s26
     BAD:
-    - HALO-0205_s19
+    - HALO-0205_s20
     - HALO-0205_s22
     - HALO-0205_s25
     UGLY: []
@@ -232,20 +232,20 @@ segments:
     - HALO-0205_s44
     - HALO-0205_s45
     - HALO-0205_s46
+    - HALO-0205_s47
     - HALO-0205_s48
     - HALO-0205_s49
-    - HALO-0205_s50
     - HALO-0205_s51
     - HALO-0205_s52
     - HALO-0205_s53
+    - HALO-0205_s54
     - HALO-0205_s55
     - HALO-0205_s56
-    - HALO-0205_s57
+    - HALO-0205_s58
     - HALO-0205_s59
-    - HALO-0205_s60
     - HALO-0205_s61
+    - HALO-0205_s62
     - HALO-0205_s63
-    - HALO-0205_s64
     - HALO-0205_s65
     - HALO-0205_s66
     - HALO-0205_s67
@@ -258,10 +258,10 @@ segments:
     - HALO-0205_s75
     - HALO-0205_s76
     BAD:
-    - HALO-0205_s47
-    - HALO-0205_s54
-    - HALO-0205_s58
-    - HALO-0205_s62
+    - HALO-0205_s50
+    - HALO-0205_s57
+    - HALO-0205_s60
+    - HALO-0205_s64
     UGLY:
     - HALO-0205_s42
     - HALO-0205_s69
@@ -280,12 +280,12 @@ segments:
     - HALO-0205_s44
     - HALO-0205_s45
     - HALO-0205_s46
+    - HALO-0205_s47
     - HALO-0205_s48
     - HALO-0205_s49
-    - HALO-0205_s50
     - HALO-0205_s51
     BAD:
-    - HALO-0205_s47
+    - HALO-0205_s50
     UGLY:
     - HALO-0205_s42
 - kinds:
@@ -310,18 +310,18 @@ segments:
     GOOD:
     - HALO-0205_s52
     - HALO-0205_s53
+    - HALO-0205_s54
     - HALO-0205_s55
     - HALO-0205_s56
-    - HALO-0205_s57
-    - HALO-0205_s59
-    - HALO-0205_s60
-    - HALO-0205_s61
-    - HALO-0205_s63
-    - HALO-0205_s64
-    BAD:
-    - HALO-0205_s54
     - HALO-0205_s58
+    - HALO-0205_s59
+    - HALO-0205_s61
     - HALO-0205_s62
+    - HALO-0205_s63
+    BAD:
+    - HALO-0205_s57
+    - HALO-0205_s60
+    - HALO-0205_s64
     UGLY: []
 - kinds:
   - circle_break
