@@ -119,9 +119,9 @@ segments:
   - cloud
   dropsondes:
     GOOD:
-    - P3-0209_s29
     - P3-0209_s32
     BAD:
     - P3-0209_s30
     UGLY:
+    - P3-0209_s29
     - P3-0209_s31
