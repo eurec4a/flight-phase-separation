@@ -74,6 +74,7 @@ segments:
     - HALO-0211_s33
     - HALO-0211_s34
     - HALO-0211_s35
+    - HALO-0211_s36
     - HALO-0211_s37
     - HALO-0211_s38
     - HALO-0211_s39
@@ -82,8 +83,8 @@ segments:
     - HALO-0211_s42
     - HALO-0211_s43
     - HALO-0211_s44
+    - HALO-0211_s45
     - HALO-0211_s46
-    - HALO-0211_s47
     - HALO-0211_s48
     - HALO-0211_s49
     - HALO-0211_s50
@@ -96,13 +97,11 @@ segments:
     - HALO-0211_s57
     - HALO-0211_s58
     - HALO-0211_s59
-    - HALO-0211_s60
     BAD:
-    - HALO-0211_s45
+    - HALO-0211_s47
     UGLY:
     - HALO-0211_s07
     - HALO-0211_s08
-    - HALO-0211_s36
 - kinds:
   - circle
   name: circle 1
@@ -192,8 +191,7 @@ segments:
     - HALO-0211_s34
     - HALO-0211_s35
     BAD: []
-    UGLY:
-    - HALO-0211_s36
+    UGLY: []
 - kinds:
   - circle_break
   name: circle break between circle 3 and circle 4
@@ -214,6 +212,7 @@ segments:
   end: 2020-02-11 17:40:09
   dropsondes:
     GOOD:
+    - HALO-0211_s36
     - HALO-0211_s37
     - HALO-0211_s38
     - HALO-0211_s39
@@ -222,11 +221,10 @@ segments:
     - HALO-0211_s42
     - HALO-0211_s43
     - HALO-0211_s44
-    - HALO-0211_s46
-    - HALO-0211_s47
-    - HALO-0211_s48
-    BAD:
     - HALO-0211_s45
+    - HALO-0211_s46
+    BAD:
+    - HALO-0211_s47
     UGLY: []
 - kinds:
   - circle_break
@@ -248,6 +246,7 @@ segments:
   end: 2020-02-11 18:55:35
   dropsondes:
     GOOD:
+    - HALO-0211_s48
     - HALO-0211_s49
     - HALO-0211_s50
     - HALO-0211_s51
@@ -259,7 +258,6 @@ segments:
     - HALO-0211_s57
     - HALO-0211_s58
     - HALO-0211_s59
-    - HALO-0211_s60
     BAD: []
     UGLY: []
 - kinds:
@@ -271,7 +269,7 @@ segments:
   end: 2020-02-11 19:46:26
   dropsondes:
     GOOD:
-    - HALO-0211_s61
+    - HALO-0211_s60
     BAD: []
     UGLY: []
 - kinds:
