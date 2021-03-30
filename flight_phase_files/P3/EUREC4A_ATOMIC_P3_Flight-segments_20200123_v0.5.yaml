@@ -108,12 +108,12 @@ segments:
     - P3-0123_s19
     - P3-0123_s20
     - P3-0123_s21
-    - P3-0123_s22
     - P3-0123_s23
     - P3-0123_s25
     - P3-0123_s26
     BAD: []
     UGLY:
+    - P3-0123_s22
     - P3-0123_s24
 - name: isotope profile 2 descending
   start: 2020-01-23 19:07:30
