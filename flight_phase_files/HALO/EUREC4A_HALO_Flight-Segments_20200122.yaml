@@ -114,14 +114,14 @@ segments:
     - HALO-0122_s27
     - HALO-0122_s28
     - HALO-0122_s29
+    - HALO-0122_s30
     - HALO-0122_s31
-    - HALO-0122_s32
     - HALO-0122_s33
     - HALO-0122_s34
     - HALO-0122_s35
     - HALO-0122_s36
     BAD:
-    - HALO-0122_s30
+    - HALO-0122_s32
     UGLY: []
 - kinds:
   - baccardi_calibration
@@ -203,8 +203,8 @@ segments:
   end: 2020-01-22 21:58:36
   dropsondes:
     GOOD:
+    - HALO-0122_s50
     - HALO-0122_s51
-    - HALO-0122_s52
     - HALO-0122_s53
     - HALO-0122_s54
     - HALO-0122_s55
@@ -215,7 +215,7 @@ segments:
     - HALO-0122_s60
     - HALO-0122_s61
     BAD:
-    - HALO-0122_s50
+    - HALO-0122_s52
     UGLY: []
 - kinds:
   - circle
@@ -301,14 +301,14 @@ segments:
     - HALO-0122_s27
     - HALO-0122_s28
     - HALO-0122_s29
+    - HALO-0122_s30
     - HALO-0122_s31
-    - HALO-0122_s32
     - HALO-0122_s33
     - HALO-0122_s34
     - HALO-0122_s35
     - HALO-0122_s36
     BAD:
-    - HALO-0122_s30
+    - HALO-0122_s32
     UGLY: []
 - kinds:
   - circling
@@ -332,8 +332,8 @@ segments:
     - HALO-0122_s46
     - HALO-0122_s47
     - HALO-0122_s48
+    - HALO-0122_s50
     - HALO-0122_s51
-    - HALO-0122_s52
     - HALO-0122_s53
     - HALO-0122_s54
     - HALO-0122_s55
@@ -356,6 +356,6 @@ segments:
     - HALO-0122_s73
     BAD:
     - HALO-0122_s49
-    - HALO-0122_s50
+    - HALO-0122_s52
     - HALO-0122_s62
     UGLY: []
