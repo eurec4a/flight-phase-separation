@@ -67,15 +67,15 @@ segments:
     - HALO-0207_s14
     - HALO-0207_s15
     - HALO-0207_s16
+    - HALO-0207_s17
     - HALO-0207_s18
-    - HALO-0207_s19
     - HALO-0207_s20
     - HALO-0207_s21
     - HALO-0207_s22
     - HALO-0207_s23
     - HALO-0207_s24
     BAD:
-    - HALO-0207_s17
+    - HALO-0207_s19
     UGLY: []
 - kinds: [circle_break]
   name: circle break between circle 2 and circle 3
@@ -100,15 +100,15 @@ segments:
     - HALO-0207_s27
     - HALO-0207_s30
     - HALO-0207_s31
-    - HALO-0207_s33
+    - HALO-0207_s32
     - HALO-0207_s34
     - HALO-0207_s36
     BAD:
-    - HALO-0207_s28
-    - HALO-0207_s32
+    - HALO-0207_s29
+    - HALO-0207_s33
     UGLY:
     - HALO-0207_s26
-    - HALO-0207_s29
+    - HALO-0207_s28
     - HALO-0207_s35
 - kinds: [straight_leg]
   name: outbound leg to NTAS
@@ -174,15 +174,15 @@ segments:
     - HALO-0207_s38
     - HALO-0207_s39
     - HALO-0207_s41
+    - HALO-0207_s42
     - HALO-0207_s43
-    - HALO-0207_s44
     - HALO-0207_s45
     - HALO-0207_s46
     - HALO-0207_s47
     - HALO-0207_s48
     - HALO-0207_s49
     BAD:
-    - HALO-0207_s42
+    - HALO-0207_s44
     UGLY:
     - HALO-0207_s40
 - kinds: [circle_break]
@@ -213,8 +213,8 @@ segments:
     - HALO-0207_s57
     - HALO-0207_s58
     - HALO-0207_s59
+    - HALO-0207_s60
     - HALO-0207_s61
-    - HALO-0207_s62
     BAD: []
     UGLY: []
 - kinds: [circle_break]
@@ -233,11 +233,11 @@ segments:
   end: 2020-02-07 20:38:25
   segment_id: HALO-0207_c6
   irregularities:
-    - traffic_diversion
-    - TTFS begin is 222s before first launch due to roll angle at end
+  - traffic_diversion
+  - TTFS begin is 222s before first launch due to roll angle at end
   dropsondes:
     GOOD:
-    - HALO-0207_s64
+    - HALO-0207_s63
     - HALO-0207_s65
     - HALO-0207_s66
     - HALO-0207_s67
@@ -247,8 +247,8 @@ segments:
     - HALO-0207_s72
     - HALO-0207_s73
     BAD:
-    - HALO-0207_s60
-    - HALO-0207_s63
+    - HALO-0207_s62
+    - HALO-0207_s64
     UGLY:
     - HALO-0207_s68
 - kinds: [straight_leg, lidar_leg]
@@ -285,8 +285,8 @@ segments:
     - HALO-0207_s14
     - HALO-0207_s15
     - HALO-0207_s16
+    - HALO-0207_s17
     - HALO-0207_s18
-    - HALO-0207_s19
     - HALO-0207_s20
     - HALO-0207_s21
     - HALO-0207_s22
@@ -296,16 +296,16 @@ segments:
     - HALO-0207_s27
     - HALO-0207_s30
     - HALO-0207_s31
-    - HALO-0207_s33
+    - HALO-0207_s32
     - HALO-0207_s34
     - HALO-0207_s36
     BAD:
-    - HALO-0207_s17
-    - HALO-0207_s28
-    - HALO-0207_s32
+    - HALO-0207_s19
+    - HALO-0207_s29
+    - HALO-0207_s33
     UGLY:
     - HALO-0207_s26
-    - HALO-0207_s29
+    - HALO-0207_s28
     - HALO-0207_s35
 - kinds: [circling]
   name: circling 2
@@ -320,8 +320,8 @@ segments:
     - HALO-0207_s38
     - HALO-0207_s39
     - HALO-0207_s41
+    - HALO-0207_s42
     - HALO-0207_s43
-    - HALO-0207_s44
     - HALO-0207_s45
     - HALO-0207_s46
     - HALO-0207_s47
@@ -337,9 +337,9 @@ segments:
     - HALO-0207_s57
     - HALO-0207_s58
     - HALO-0207_s59
+    - HALO-0207_s60
     - HALO-0207_s61
-    - HALO-0207_s62
-    - HALO-0207_s64
+    - HALO-0207_s63
     - HALO-0207_s65
     - HALO-0207_s66
     - HALO-0207_s67
@@ -349,9 +349,9 @@ segments:
     - HALO-0207_s72
     - HALO-0207_s73
     BAD:
-    - HALO-0207_s42
-    - HALO-0207_s60
-    - HALO-0207_s63
+    - HALO-0207_s44
+    - HALO-0207_s62
+    - HALO-0207_s64
     UGLY:
     - HALO-0207_s40
     - HALO-0207_s68
