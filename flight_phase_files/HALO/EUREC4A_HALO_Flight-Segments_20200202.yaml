@@ -180,6 +180,7 @@ segments:
   end: 2020-02-02 16:20:45
   dropsondes:
     GOOD:
+    - HALO-0202_s49
     - HALO-0202_s50
     - HALO-0202_s51
     - HALO-0202_s52
@@ -200,13 +201,13 @@ segments:
     - HALO-0202_s56
     - HALO-0202_s57
     - HALO-0202_s58
-    - HALO-0202_s61
+    - HALO-0202_s60
     - HALO-0202_s62
     - HALO-0202_s63
     BAD:
-    - HALO-0202_s59
+    - HALO-0202_s61
     UGLY:
-    - HALO-0202_s60
+    - HALO-0202_s59
     - HALO-0202_s64
 - kinds:
   - circle_break
@@ -267,16 +268,16 @@ segments:
     - HALO-0202_s78
     - HALO-0202_s79
     - HALO-0202_s80
+    - HALO-0202_s81
     - HALO-0202_s82
     - HALO-0202_s83
-    - HALO-0202_s84
     - HALO-0202_s85
     - HALO-0202_s86
     - HALO-0202_s87
     - HALO-0202_s88
     - HALO-0202_s89
     BAD:
-    - HALO-0202_s81
+    - HALO-0202_s84
     UGLY: []
 - kinds:
   - radar_calibration_tilted
@@ -377,7 +378,7 @@ segments:
     - HALO-0202_s56
     - HALO-0202_s57
     - HALO-0202_s58
-    - HALO-0202_s61
+    - HALO-0202_s60
     - HALO-0202_s62
     - HALO-0202_s63
     - HALO-0202_s65
@@ -395,18 +396,18 @@ segments:
     - HALO-0202_s78
     - HALO-0202_s79
     - HALO-0202_s80
+    - HALO-0202_s81
     - HALO-0202_s82
     - HALO-0202_s83
-    - HALO-0202_s84
     - HALO-0202_s85
     - HALO-0202_s86
     - HALO-0202_s87
     - HALO-0202_s88
     - HALO-0202_s89
     BAD:
-    - HALO-0202_s59
-    - HALO-0202_s81
+    - HALO-0202_s61
+    - HALO-0202_s84
     UGLY:
-    - HALO-0202_s60
+    - HALO-0202_s59
     - HALO-0202_s64
     - HALO-0202_s72
