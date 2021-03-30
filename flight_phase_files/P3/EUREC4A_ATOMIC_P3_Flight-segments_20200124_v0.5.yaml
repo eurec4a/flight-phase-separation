@@ -41,7 +41,7 @@ segments:
 - name: circle 1
   start: 2020-01-24 13:35:00
   end: 2020-01-24 14:47:42
-  irregularities: 
+  irregularities:
   - planned sondeless circle
   segment_id: P3-0124_ci1
   kinds:
@@ -53,7 +53,7 @@ segments:
 - name: circle 2
   start: 2020-01-24 14:47:42
   end: 2020-01-24 15:58:48
-  irregularities: 
+  irregularities:
   - planned sondeless circle
   segment_id: P3-0124_ci2
   kinds:
@@ -65,7 +65,7 @@ segments:
 - name: half-circle 3
   start: 2020-01-24 15:58:48
   end: 2020-01-24 16:34:30
-  irregularities: 
+  irregularities:
   - planned sondeless circle
   - circle does not fulfil the definition of 360 degree
   segment_id: P3-0124_ci3
