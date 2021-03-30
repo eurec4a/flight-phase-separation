@@ -57,9 +57,9 @@ segments:
     - HALO-0131_s17
     - HALO-0131_s18
     - HALO-0131_s19
+    - HALO-0131_s20
     - HALO-0131_s21
     - HALO-0131_s22
-    - HALO-0131_s23
     - HALO-0131_s24
     - HALO-0131_s25
     - HALO-0131_s26
@@ -69,11 +69,11 @@ segments:
     - HALO-0131_s31
     - HALO-0131_s32
     - HALO-0131_s33
-    - HALO-0131_s35
+    - HALO-0131_s34
     - HALO-0131_s36
     BAD:
-    - HALO-0131_s20
-    - HALO-0131_s34
+    - HALO-0131_s23
+    - HALO-0131_s35
     UGLY:
     - HALO-0131_s29
 - kinds:
@@ -125,12 +125,12 @@ segments:
     - HALO-0131_s17
     - HALO-0131_s18
     - HALO-0131_s19
+    - HALO-0131_s20
     - HALO-0131_s21
     - HALO-0131_s22
-    - HALO-0131_s23
     - HALO-0131_s24
     BAD:
-    - HALO-0131_s20
+    - HALO-0131_s23
     UGLY: []
 - kinds:
   - circle_break
@@ -147,7 +147,8 @@ segments:
   - circle
   name: circle 3
   irregularities:
-  - TTFS Earlier start of circle to allow completion of 360 deg before next flight pattern
+  - TTFS Earlier start of circle to allow completion of 360 deg before next flight
+    pattern
   segment_id: HALO-0131_c3
   start: 2020-01-31 17:50:17
   end: 2020-01-31 18:49:16
@@ -161,10 +162,10 @@ segments:
     - HALO-0131_s31
     - HALO-0131_s32
     - HALO-0131_s33
-    - HALO-0131_s35
+    - HALO-0131_s34
     - HALO-0131_s36
     BAD:
-    - HALO-0131_s34
+    - HALO-0131_s35
     UGLY:
     - HALO-0131_s29
 - kinds:
