@@ -88,13 +88,13 @@ segments:
     - HALO-0126_s16
     - HALO-0126_s17
     - HALO-0126_s18
-    - HALO-0126_s20
+    - HALO-0126_s19
     - HALO-0126_s21
     - HALO-0126_s22
     - HALO-0126_s23
     - HALO-0126_s24
     BAD:
-    - HALO-0126_s19
+    - HALO-0126_s20
     UGLY:
     - HALO-0126_s13
 - kinds:
@@ -134,7 +134,7 @@ segments:
 - kinds:
   - circling
   name: circling 1
-  irregularities: 
+  irregularities:
   - TTFS 188 seconds to first launch as flight was already on circle path
   segment_id: HALO-0126_o1
   start: 2020-01-26 12:24:00
@@ -158,7 +158,7 @@ segments:
     - HALO-0126_s16
     - HALO-0126_s17
     - HALO-0126_s18
-    - HALO-0126_s20
+    - HALO-0126_s19
     - HALO-0126_s21
     - HALO-0126_s22
     - HALO-0126_s23
@@ -175,7 +175,7 @@ segments:
     - HALO-0126_s34
     - HALO-0126_s36
     BAD:
-    - HALO-0126_s19
+    - HALO-0126_s20
     UGLY:
     - HALO-0126_s13
     - HALO-0126_s35
@@ -285,8 +285,8 @@ segments:
     - HALO-0126_s52
     - HALO-0126_s53
     - HALO-0126_s54
+    - HALO-0126_s55
     - HALO-0126_s56
-    - HALO-0126_s57
     - HALO-0126_s58
     - HALO-0126_s59
     - HALO-0126_s60
@@ -294,7 +294,7 @@ segments:
     - HALO-0126_s62
     - HALO-0126_s63
     BAD:
-    - HALO-0126_s55
+    - HALO-0126_s57
     UGLY: []
 - kinds:
   - circle_break
@@ -358,8 +358,8 @@ segments:
     - HALO-0126_s52
     - HALO-0126_s53
     - HALO-0126_s54
+    - HALO-0126_s55
     - HALO-0126_s56
-    - HALO-0126_s57
     - HALO-0126_s58
     - HALO-0126_s59
     - HALO-0126_s60
@@ -367,7 +367,7 @@ segments:
     - HALO-0126_s62
     - HALO-0126_s63
     BAD:
-    - HALO-0126_s55
+    - HALO-0126_s57
     UGLY: []
 - kinds:
   - circling
