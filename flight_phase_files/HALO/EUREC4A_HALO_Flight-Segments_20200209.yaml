@@ -114,7 +114,8 @@ segments:
     - HALO-0209_s33
     - HALO-0209_s34
     - HALO-0209_s35
-    BAD: []
+    BAD:
+    - HALO-0209_s73
     UGLY: []
 - kinds: [straight_leg]
   name: outbound leg to NTAS
@@ -319,6 +320,7 @@ segments:
     - HALO-0209_s07
     - HALO-0209_s16
     - HALO-0209_s20
+    - HALO-0209_s73
     UGLY: []
 - kinds: [circling]
   name: circling 2

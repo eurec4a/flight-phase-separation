@@ -68,7 +68,8 @@ segments:
 - kinds:
   - circle
   name: circle 2
-  irregularities: []
+  irregularities: 
+  - TTFS circle starts 50 s before first launch because launch time of first sonde changed by 10 seconds after change in JOANNE Level-1
   segment_id: HALO-0122_c2
   start: 2020-01-22 16:30:20
   end: 2020-01-22 17:26:52

@@ -221,13 +221,13 @@ segments:
     - HALO-0124_s68
     - HALO-0124_s69
     - HALO-0124_s71
-    - HALO-0124_s72
     - HALO-0124_s73
     - HALO-0124_s74
     - HALO-0124_s75
     BAD:
     - HALO-0124_s70
-    UGLY: []
+    UGLY:
+    - HALO-0124_s72
 - kinds:
   - circling
   name: circling 1
@@ -305,7 +305,6 @@ segments:
     - HALO-0124_s68
     - HALO-0124_s69
     - HALO-0124_s71
-    - HALO-0124_s72
     - HALO-0124_s73
     - HALO-0124_s74
     - HALO-0124_s75
@@ -315,6 +314,7 @@ segments:
     - HALO-0124_s70
     UGLY:
     - HALO-0124_s07
+    - HALO-0124_s72
 - kinds:
   - straight_leg
   name: leg outbound NTAS
