@@ -102,7 +102,6 @@ segments:
     UGLY:
     - HALO-0211_s07
     - HALO-0211_s08
-    - HALO-0211_s36
 - kinds:
   - circle
   name: circle 1
@@ -192,8 +191,7 @@ segments:
     - HALO-0211_s34
     - HALO-0211_s35
     BAD: []
-    UGLY:
-    - HALO-0211_s36
+    UGLY: []
 - kinds:
   - circle_break
   name: circle break between circle 3 and circle 4
