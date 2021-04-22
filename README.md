@@ -52,7 +52,7 @@ The ATR uses the following sub-kinds of certain `level` segments:
 * below inversion ferry leg
 
 HALO uses the following sub-kinds of the `calibration` kind:
-* lidar_calibration
+* lidar_leg
 * radar_calibration_wiggle
 * radar_calibration_tilted
 * baccardi_calibration
