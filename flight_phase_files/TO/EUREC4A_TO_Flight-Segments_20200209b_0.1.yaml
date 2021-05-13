@@ -14,92 +14,107 @@ remarks:
 segments:
 - kinds:
   - level
-  name: ''
+  - transit
+  name: 'transit to circle'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_tr1
   start: 2020-02-09 15:53:38
   end: 2020-02-09 16:07:37
 - kinds:
   - profile
-  name: ''
+  name: 'profile 1'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof1
   start: 2020-02-09 16:07:10
   end: 2020-02-09 16:24:44
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 1'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_cld1
   start: 2020-02-09 16:31:30
   end: 2020-02-09 17:07:06
 - kinds:
   - profile
-  name: ''
+  name: 'profile 2'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof2
   start: 2020-02-09 17:05:18
   end: 2020-02-09 17:10:42
 - kinds:
   - profile
-  name: ''
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof3
   start: 2020-02-09 17:10:42
   end: 2020-02-09 17:17:55
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 2'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_cld2
   start: 2020-02-09 17:17:01
   end: 2020-02-09 17:37:18
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 3'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_cld3
   start: 2020-02-09 17:38:39
   end: 2020-02-09 17:58:28
 - kinds:
   - level
-  name: ''
+  - cloud_base
+  name: 'cloud base 1'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_cb1
   start: 2020-02-09 18:00:17
   end: 2020-02-09 18:20:33
 - kinds:
   - profile
-  name: ''
+  name: 'profile 4'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof4
   start: 2020-02-09 18:19:39
   end: 2020-02-09 18:28:40
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_bl1
   start: 2020-02-09 18:28:13
   end: 2020-02-09 18:52:33
 - kinds:
   - profile
-  name: ''
+  name: 'profile 5'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof5
   start: 2020-02-09 18:52:33
   end: 2020-02-09 18:58:25
 - kinds:
   - level
-  name: ''
+  - transit
+  name: 'transit from circle'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_tr2
   start: 2020-02-09 18:58:25
   end: 2020-02-09 19:03:49
 - kinds:
   - profile
-  name: ''
+  name: 'profile 6'
   irregularities: []
-  segment_id: TO-0346_
+  segment_id: TO-0346_prof6
   start: 2020-02-09 19:03:49
   end: 2020-02-09 19:13:44
+- kinds:
+  - level
+  - bco_flyby
+  name: 'BCO flyby'
+  irregularities: []
+  segment_id: TO-0346_bco
+  start: 2020-02-09 19:13:00
+  end: 2020-02-09 19:15:00

@@ -13,79 +13,95 @@ remarks:
   or H2O_LICOR.
 segments:
 - kinds:
-  - profile
-  name: ''
+  - level
+  - transit
+  name: 'transit to circle'
   irregularities: []
-  segment_id: TO-0333_
-  start: 2020-01-26 17:56:50
+  segment_id: TO-0333_tr1
+  start: 2020-01-26 17:40:00
+  end: 2020-01-26 17:50:00
+- kinds:
+  - profile
+  name: 'profile 1'
+  irregularities: []
+  segment_id: TO-0333_prof1
+  start: 2020-01-26 17:50:00
   end: 2020-01-26 18:01:10
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1a'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_bl1a
   start: 2020-01-26 18:01:31
   end: 2020-01-26 18:12:42
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1b'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_bl1b
   start: 2020-01-26 18:13:25
   end: 2020-01-26 18:23:31
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 2a'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_bl2a
   start: 2020-01-26 18:27:07
   end: 2020-01-26 18:36:29
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 2b'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_bl2a
   start: 2020-01-26 18:37:56
   end: 2020-01-26 18:47:40
 - kinds:
   - profile
-  name: ''
+  name: 'profile 2'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_prof2
   start: 2020-01-26 18:47:40
   end: 2020-01-26 19:06:03
 - kinds:
   - profile
-  name: ''
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_prof3
   start: 2020-01-26 19:05:41
   end: 2020-01-26 19:11:06
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 1'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_cld1
   start: 2020-01-26 19:12:11
   end: 2020-01-26 19:18:40
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 2'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_cld2
   start: 2020-01-26 19:23:21
   end: 2020-01-26 19:37:25
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 3'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_cld3
   start: 2020-01-26 19:41:01
   end: 2020-01-26 20:02:39
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 4'
   irregularities: []
-  segment_id: TO-0333_
+  segment_id: TO-0333_cld4
   start: 2020-01-26 20:04:05
   end: 2020-01-26 20:08:03

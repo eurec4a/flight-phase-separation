@@ -14,127 +14,148 @@ remarks:
 segments:
 - kinds:
   - level
-  name: ''
+  - transit
+  - cloud
+  name: 'transit to circle'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_tr1
   start: 2020-02-05 16:32:32
   end: 2020-02-05 16:45:45
 - kinds:
   - profile
-  name: ''
+  name: 'profile 1'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof1
   start: 2020-02-05 16:48:56
   end: 2020-02-05 16:55:19
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 1'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld1
   start: 2020-02-05 16:54:51
   end: 2020-02-05 17:13:04
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 2'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld2
   start: 2020-02-05 17:13:32
   end: 2020-02-05 17:39:02
 - kinds:
   - level
-  name: ''
+  - cloud_base
+  name: 'cloud base 1'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cb1
   start: 2020-02-05 17:39:29
   end: 2020-02-05 17:58:37
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 3'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld3
   start: 2020-02-05 18:01:21
   end: 2020-02-05 18:10:00
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 4'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld4
   start: 2020-02-05 18:11:49
   end: 2020-02-05 18:19:34
 - kinds:
   - profile
-  name: ''
+  name: 'profile 2'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof2
   start: 2020-02-05 18:19:07
   end: 2020-02-05 18:26:51
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 5'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld5
   start: 2020-02-05 18:21:51
   end: 2020-02-05 18:24:34
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 6'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld6
   start: 2020-02-05 18:26:24
   end: 2020-02-05 18:34:36
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 7'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld7
   start: 2020-02-05 18:36:52
   end: 2020-02-05 18:49:10
 - kinds:
   - profile
-  name: ''
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof3
   start: 2020-02-05 18:48:15
   end: 2020-02-05 18:59:11
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 8'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_cld8
   start: 2020-02-05 18:51:27
   end: 2020-02-05 18:54:11
 - kinds:
   - profile
-  name: ''
+  name: 'profile 4'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof4
   start: 2020-02-05 18:59:39
   end: 2020-02-05 19:17:52
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_bl1
   start: 2020-02-05 19:19:41
   end: 2020-02-05 19:30:37
 - kinds:
   - profile
-  name: ''
+  name: 'profile 5'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof5
   start: 2020-02-05 19:30:37
   end: 2020-02-05 19:37:54
 - kinds:
   - level
-  name: ''
+  - transit
+  name: 'transit from circle'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_tr2
   start: 2020-02-05 19:36:59
   end: 2020-02-05 19:44:44
 - kinds:
   - profile
-  name: ''
+  name: 'profile 6'
   irregularities: []
-  segment_id: TO-0341_
+  segment_id: TO-0341_prof6
   start: 2020-02-05 19:44:44
   end: 2020-02-05 19:53:50
+- kinds:
+  - level
+  - bco_flyby
+  name: 'BCO flyby'
+  irregularities: []
+  segment_id: TO-0341_bco
+  start: 2020-02-05 19:53:50
+  end: 2020-02-05 19:55:50

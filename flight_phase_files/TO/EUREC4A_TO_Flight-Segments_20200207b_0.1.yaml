@@ -151,7 +151,7 @@ segments:
 - kinds:
   - level
   - transit
-  name: 'transit back to Barbados'
+  name: 'transit from circle'
   irregularities: []
   segment_id: TO-0344_tr2
   start: 2020-02-07 20:11:00

@@ -2,7 +2,10 @@ name: RF03
 mission: EUREC4A
 platform: TO
 flight_id: TO-0332
-contacts: []
+contacts:
+- name: Phil Rosenberg
+  tags:
+  - flight PI
 date: 2020-01-26
 flight_report: ''
 takeoff: 2020-01-26 11:44:55
@@ -14,92 +17,103 @@ remarks:
 segments:
 - kinds:
   - level
-  name: ''
+  - transit
+  name: 'transit to circle'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_tr1
   start: 2020-01-26 12:01:17
   end: 2020-01-26 12:16:06
 - kinds:
   - profile
-  name: ''
+  name: 'profile 1'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_prof1
   start: 2020-01-26 12:16:06
   end: 2020-01-26 12:27:21
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1a (no cloud)'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_bl1a_1
   start: 2020-01-26 12:27:51
   end: 2020-01-26 12:37:34
 - kinds:
   - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0332_
+  - boundary_layer
+  name: 'boundary layer 1a (shift to cloud)'
+  irregularities:
+  - Changed direction to be under clouds (next segment)
+  segment_id: TO-0332_bl1a_2
   start: 2020-01-26 12:39:06
   end: 2020-01-26 12:42:10
 - kinds:
   - level
-  name: ''
-  irregularities: []
-  segment_id: TO-0332_
+  - boundary_layer
+  name: 'boundary layer 1a (cloud)'
+  irregularities:
+  - Changed direction to be under clouds from previous segment
+  segment_id: TO-0332_bl1a_3
   start: 2020-01-26 12:43:42
   end: 2020-01-26 12:54:26
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1b'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_bl1b
   start: 2020-01-26 13:01:35
   end: 2020-01-26 13:17:26
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 2a'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_bl2a
   start: 2020-01-26 13:25:06
   end: 2020-01-26 13:36:51
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 2b'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_bl2b
   start: 2020-01-26 13:39:24
   end: 2020-01-26 13:48:36
 - kinds:
   - profile
-  name: ''
+  name: 'profile 2'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_prof2
   start: 2020-01-26 13:48:36
   end: 2020-01-26 14:01:23
 - kinds:
   - profile
-  name: ''
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_prof3
   start: 2020-01-26 14:02:24
   end: 2020-01-26 14:11:06
 - kinds:
   - level
-  name: ''
+  - cloud_base
+  name: 'cloud base 1'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_cb1
   start: 2020-01-26 14:11:06
   end: 2020-01-26 15:12:25
 - kinds:
   - profile
-  name: ''
+  name: 'profile 4'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_prof4
   start: 2020-01-26 15:11:24
   end: 2020-01-26 15:35:56
 - kinds:
   - level
-  name: ''
+  - bco_flyby
+  name: 'BCO flyby'
   irregularities: []
-  segment_id: TO-0332_
+  segment_id: TO-0332_bco
   start: 2020-01-26 15:16:31
   end: 2020-01-26 15:23:09

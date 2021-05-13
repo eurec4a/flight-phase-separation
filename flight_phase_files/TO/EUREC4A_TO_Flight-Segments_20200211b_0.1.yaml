@@ -14,92 +14,102 @@ remarks:
 segments:
 - kinds:
   - level
-  name: ''
+  - transit
+  - cloud
+  name: 'transit to circle'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_tr1
   start: 2020-02-11 18:05:55
   end: 2020-02-11 18:31:55
 - kinds:
   - profile
-  name: ''
+  name: 'profile 1'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_prof1
   start: 2020-02-11 18:31:01
   end: 2020-02-11 18:40:26
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 1'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_bl1
   start: 2020-02-11 18:39:59
   end: 2020-02-11 19:03:17
 - kinds:
   - level
-  name: ''
+  - boundary_layer
+  name: 'boundary layer 2'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_bl2
   start: 2020-02-11 19:06:25
   end: 2020-02-11 19:30:11
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 1'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld1
   start: 2020-02-11 19:31:58
   end: 2020-02-11 19:43:10
 - kinds:
   - profile
-  name: ''
+  name: 'profile 2'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_prof2
   start: 2020-02-11 19:42:17
   end: 2020-02-11 19:47:12
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 2'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld2
   start: 2020-02-11 19:46:46
   end: 2020-02-11 19:54:50
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 3'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld3
   start: 2020-02-11 19:57:04
   end: 2020-02-11 20:08:43
 - kinds:
   - profile
-  name: ''
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_prof3
   start: 2020-02-11 20:08:43
   end: 2020-02-11 20:11:24
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 4'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld4
   start: 2020-02-11 20:11:24
   end: 2020-02-11 20:29:47
 - kinds:
   - profile
-  name: ''
+  name: 'profile 4'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_prof4
   start: 2020-02-11 20:28:53
   end: 2020-02-11 20:32:55
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 5'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld5
   start: 2020-02-11 20:32:55
   end: 2020-02-11 20:49:57
 - kinds:
   - level
-  name: ''
+  - cloud
+  name: 'cloud 6'
   irregularities: []
-  segment_id: TO-0349_
+  segment_id: TO-0349_cld6
   start: 2020-02-11 20:49:57
   end: 2020-02-11 21:19:32
