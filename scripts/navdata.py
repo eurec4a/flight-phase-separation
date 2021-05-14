@@ -51,11 +51,9 @@ def get_navdata_TO(nav_data):
     """
     :param nav_data: flight id
     """
-    import pathlib
     import xarray as xr
-    import twinotter
 
-    ds = twinotter.load_flight(nav_data)
+    ds = xr.open_dataset(nav_data)
     ds = ds.rename(dict(Time="time"))
 
     return xr.Dataset({
