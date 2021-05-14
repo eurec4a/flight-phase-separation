@@ -93,9 +93,9 @@ segments:
   end: 2020-02-11 15:24:44
 - kinds:
   - profile
-  name: 'profile 2'
+  name: 'profile 3'
   irregularities: []
-  segment_id: TO-0348_prof2
+  segment_id: TO-0348_prof3
   start: 2020-02-11 15:25:15
   end: 2020-02-11 15:30:07
 - kinds:
