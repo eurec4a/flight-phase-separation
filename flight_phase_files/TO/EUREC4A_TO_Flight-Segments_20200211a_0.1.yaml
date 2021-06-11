@@ -1,0 +1,109 @@
+name: RF19
+mission: EUREC4A
+platform: TO
+flight_id: TO-0348
+contacts:
+- name: Leo Saffin
+  email: l.saffin@leeds.ac.uk
+  tags:
+    - flight PI
+date: 2020-02-11
+flight_report: ''
+takeoff: 2020-02-11 12:14:59
+landing: 2020-02-11 16:09:23
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - profile
+  name: 'profile 1'
+  irregularities:
+    - Profile starts outside HALO circle
+  segment_id: TO-0348_prof1
+  start: 2020-02-11 12:42:15
+  end: 2020-02-11 13:01:13
+- kinds:
+  - sawtooth
+  - cloud
+  - detrainment_layer
+  name: 'sawtooth detrainment layer 1'
+  irregularities: []
+  segment_id: TO-0348_saw1
+  start: 2020-02-11 12:54:02
+  end: 2020-02-11 13:27:15
+- kinds:
+  - level
+  - cloud
+  - detrainment_layer
+  name: 'level detrainment layer 1'
+  irregularities: []
+  segment_id: TO-0348_level_detr1
+  start: 2020-02-11 13:27:15
+  end: 2020-02-11 13:45:30
+- kinds:
+  - sawtooth
+  - cloud
+  - detrainment_layer
+  name: 'sawtooth detrainment layer 2'
+  irregularities:
+    - Originally intented as a straight leg but kept adjusting height to stay with the detrainment layer
+  segment_id: TO-0348_saw2
+  start: 2020-02-11 13:44:41
+  end: 2020-02-11 14:11:04
+- kinds:
+  - profile
+  name: 'profile 2'
+  irregularities: []
+  segment_id: TO-0348_prof2
+  start: 2020-02-11 14:10:52
+  end: 2020-02-11 14:23:58
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 1'
+  irregularities: []
+  segment_id: TO-0348_cld1
+  start: 2020-02-11 14:25:21
+  end: 2020-02-11 14:38:44
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 2'
+  irregularities: []
+  segment_id: TO-0348_cld2
+  start: 2020-02-11 14:40:31
+  end: 2020-02-11 14:52:09
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 3'
+  irregularities: []
+  segment_id: TO-0348_cld3
+  start: 2020-02-11 14:53:56
+  end: 2020-02-11 15:08:15
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 4'
+  irregularities: []
+  segment_id: TO-0348_cld4
+  start: 2020-02-11 15:09:09
+  end: 2020-02-11 15:24:44
+- kinds:
+  - profile
+  name: 'profile 3'
+  irregularities: []
+  segment_id: TO-0348_prof3
+  start: 2020-02-11 15:25:15
+  end: 2020-02-11 15:30:07
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1'
+  irregularities:
+    - Ends early due to issues with aeroplane
+  segment_id: TO-0348_bl1
+  start: 2020-02-11 15:29:43
+  end: 2020-02-11 15:40:01

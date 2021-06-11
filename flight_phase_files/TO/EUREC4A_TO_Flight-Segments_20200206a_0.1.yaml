@@ -1,0 +1,94 @@
+name: RF13
+mission: EUREC4A
+platform: TO
+flight_id: TO-0342
+contacts: []
+date: 2020-02-06
+flight_report: ''
+takeoff: 2020-02-06 13:51:21
+landing: 2020-02-06 17:52:02
+events: []
+remarks:
+- Calibration flight
+- Science legs near end of flight
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  - transit
+  name: 'transit to circle'
+  irregularities: []
+  segment_id: TO-0342_tr1
+  start: 2020-02-06 14:22:39
+  end: 2020-02-06 14:47:44
+- kinds:
+  - calibration
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_a
+  start: 2020-02-06 14:50:01
+  end: 2020-02-06 15:00:58
+- kinds:
+  - calibration
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_b
+  start: 2020-02-06 15:03:15
+  end: 2020-02-06 15:48:52
+- kinds:
+  - calibration
+  - level
+  name: ''
+  irregularities: []
+  segment_id: TO-0342_c
+  start: 2020-02-06 15:51:36
+  end: 2020-02-06 16:40:52
+- kinds:
+  - profile
+  name: 'profile 1'
+  irregularities: []
+  segment_id: TO-0342_prof1
+  start: 2020-02-06 16:41:19
+  end: 2020-02-06 16:48:37
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 1'
+  irregularities: []
+  segment_id: TO-0342_cld1
+  start: 2020-02-06 16:49:04
+  end: 2020-02-06 16:56:22
+- kinds:
+  - profile
+  name: 'profile 2'
+  irregularities: []
+  segment_id: TO-0342_prof2
+  start: 2020-02-06 16:55:55
+  end: 2020-02-06 17:04:08
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1'
+  irregularities: []
+  segment_id: TO-0342_bl1
+  start: 2020-02-06 17:04:08
+  end: 2020-02-06 17:10:03
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary_layer 2'
+  irregularities: []
+  segment_id: TO-0342_bl2
+  start: 2020-02-06 17:11:53
+  end: 2020-02-06 17:26:01
+- kinds:
+  - level
+  - transit
+  name: 'transit from circle'
+  irregularities: []
+  segment_id: TO-0342_tr2
+  start: 2020-02-06 17:26:29
+  end: 2020-02-06 17:42:27

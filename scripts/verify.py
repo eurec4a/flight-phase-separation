@@ -9,7 +9,7 @@ from contextlib import closing
 from navdata import get_navdata
 from checkers import FlightChecker
 
-def validate(segment_file, sonde_info):
+def validate(segment_file, sonde_info, nav_data=None):
     flightlogger = logging.getLogger("flight")
     segmentlogger = logging.getLogger("segment")
 
@@ -22,7 +22,12 @@ def validate(segment_file, sonde_info):
         flightlogger.warning(warning)
 
     segment_warning_count = 0
-    with closing(get_navdata(flightdata["platform"], flightdata["flight_id"]).load()) as navdata:
+    if nav_data is None:
+        flight_id = flightdata["flight_id"]
+    else:
+        flight_id = nav_data
+
+    with closing(get_navdata(flightdata["platform"], flight_id).load()) as navdata:
         for seg in flightdata["segments"]:
             t_start = np.datetime64(seg["start"])
             t_end = np.datetime64(seg["end"])
@@ -61,6 +66,7 @@ def _main():
     parser = argparse.ArgumentParser()
     parser.add_argument("infiles", type=str, nargs="+")
     parser.add_argument("-s", "--sonde_info", help="sonde info yaml file", default=os.path.join(basedir, "sondes.yaml"))
+    parser.add_argument("-n", "--nav_data", help="local file with flight coordinates", default=None)
     args = parser.parse_args()
 
     sonde_info = yaml.load(open(args.sonde_info), Loader=yaml.SafeLoader)
@@ -70,7 +76,7 @@ def _main():
         mainlogger.info("verifying %s", filename)
         try:
             flight_warning_count, segment_warning_count = validate(
-                        filename, sonde_info)
+                        filename, sonde_info, nav_data=args.nav_data)
             total_warnings += flight_warning_count + segment_warning_count
             mainlogger.info("%d flight warnings, %d segment warnings",
                             flight_warning_count,

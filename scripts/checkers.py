@@ -30,6 +30,7 @@ class FlightChecker:
                 yield "segment_id \"{}\" is duplicated".format(segment_id)
             self.used_segment_ids.add(segment_id)
         else:
+            segment_id = ""
             yield "segment_id is missing"
 
         if "kinds" in seg:
@@ -67,7 +68,9 @@ class FlightChecker:
             good_dropsondes = seg["good_dropsondes"]
 
         if "dropsondes" not in seg:
-            yield "dropsondes attribute is missing"
+            # Only expect the dropsonde attribute from HALO and P3
+            if "HALO-" in segment_id or "P3-" in segment_id:
+                yield "dropsondes attribute is missing"
         elif not isinstance(seg["dropsondes"], dict):
             yield "dropsondes is not a mapping"
         else:

@@ -1,0 +1,128 @@
+name: RF07
+mission: EUREC4A
+platform: TO
+flight_id: TO-0336
+contacts: []
+date: 2020-01-30
+flight_report: ''
+takeoff: 2020-01-30 10:45:30
+landing: 2020-01-30 14:26:52
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  - transit
+  name: 'transit to circle'
+  irregularities: []
+  segment_id: TO-0336_tr1
+  start: 2020-01-30 11:11:21
+  end: 2020-01-30 11:34:18
+- kinds:
+  - profile
+  name: 'profile 1'
+  irregularities: []
+  segment_id: TO-0336_prof1
+  start: 2020-01-30 11:33:23
+  end: 2020-01-30 11:49:00
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1a'
+  irregularities: []
+  segment_id: TO-0336_bl1a
+  start: 2020-01-30 11:50:50
+  end: 2020-01-30 11:54:30
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1b'
+  irregularities: []
+  segment_id: TO-0336_bl1b
+  start: 2020-01-30 11:55:25
+  end: 2020-01-30 12:10:34
+- kinds:
+  - profile
+  name: 'profile 2'
+  irregularities: []
+  segment_id: TO-0336_prof2
+  start: 2020-01-30 12:13:47
+  end: 2020-01-30 12:22:31
+- kinds:
+  - level
+  name: 'uncategorised'
+  irregularities: []
+  segment_id: TO-0336_uncategorised
+  start: 2020-01-30 12:22:31
+  end: 2020-01-30 12:30:00
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 1'
+  irregularities: []
+  segment_id: TO-0336_cld1
+  start: 2020-01-30 12:32:37
+  end: 2020-01-30 13:18:04
+- kinds:
+  - profile
+  name: 'profile 3'
+  irregularities: []
+  segment_id: TO-0336_prof3
+  start: 2020-01-30 13:18:32
+  end: 2020-01-30 13:23:35
+- kinds:
+  - level
+  - above_cloud
+  name: 'above cloud 1'
+  irregularities: []
+  segment_id: TO-0336_ac1
+  start: 2020-01-30 13:23:07
+  end: 2020-01-30 13:28:10
+- kinds:
+  - profile
+  name: 'profile 4'
+  irregularities: []
+  segment_id: TO-0336_prof4
+  start: 2020-01-30 13:27:42
+  end: 2020-01-30 13:33:13
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 2'
+  irregularities: []
+  segment_id: TO-0336_cld2
+  start: 2020-01-30 13:33:13
+  end: 2020-01-30 13:44:42
+- kinds:
+  - profile
+  name: 'profile 5'
+  irregularities: []
+  segment_id: TO-0336_prof5
+  start: 2020-01-30 13:44:14
+  end: 2020-01-30 13:49:17
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 3'
+  irregularities: []
+  segment_id: TO-0336_cld3
+  start: 2020-01-30 13:51:07
+  end: 2020-01-30 13:58:28
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 2'
+  irregularities: []
+  segment_id: TO-0336_bl2
+  start: 2020-01-30 13:59:23
+  end: 2020-01-30 14:09:02
+- kinds:
+  - level
+  - bco_flyby
+  name: 'BCO flyby'
+  irregularities: []
+  segment_id: TO-0336_bco
+  start: 2020-01-30 14:25:00
+  end: 2020-01-30 14:27:00

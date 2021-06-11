@@ -1,0 +1,151 @@
+name: RF08
+mission: EUREC4A
+platform: TO
+flight_id: TO-0337
+contacts: []
+date: 2020-01-31
+flight_report: ''
+takeoff: 2020-01-31 13:19:59
+landing: 2020-01-31 16:55:07
+events: []
+remarks:
+- HUM_ROSE is not well calibrated to absolute values - reference against TDEW_BUCK
+  or H2O_LICOR.
+segments:
+- kinds:
+  - level
+  - transit
+  name: 'transit to circle'
+  irregularities: []
+  segment_id: TO-0337_tr1
+  start: 2020-01-31 13:43:38
+  end: 2020-01-31 13:57:07
+- kinds:
+  - profile
+  name: 'profile 1'
+  irregularities: []
+  segment_id: TO-0337_prof1
+  start: 2020-01-31 14:00:43
+  end: 2020-01-31 14:07:00
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1a'
+  irregularities: []
+  segment_id: TO-0337_bl1a
+  start: 2020-01-31 14:07:00
+  end: 2020-01-31 14:20:30
+- kinds:
+  - level
+  - boundary_layer
+  name: 'boundary layer 1b'
+  irregularities: []
+  segment_id: TO-0337_bl1b
+  start: 2020-01-31 14:21:51
+  end: 2020-01-31 14:31:44
+- kinds:
+  - level
+  - cloud_base
+  name: 'cloud base 1'
+  irregularities: []
+  segment_id: TO-0337_cb1
+  start: 2020-01-31 14:33:32
+  end: 2020-01-31 14:51:04
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 1'
+  irregularities: []
+  segment_id: TO-0337_cld1
+  start: 2020-01-31 14:53:46
+  end: 2020-01-31 14:57:49
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 2'
+  irregularities: []
+  segment_id: TO-0337_cld2
+  start: 2020-01-31 14:58:43
+  end: 2020-01-31 15:03:13
+- kinds:
+  - profile
+  name: 'profile 2'
+  irregularities: []
+  segment_id: TO-0337_prof2
+  start: 2020-01-31 15:03:13
+  end: 2020-01-31 15:13:33
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 3'
+  irregularities: []
+  segment_id: TO-0337_cld3
+  start: 2020-01-31 15:13:06
+  end: 2020-01-31 15:25:42
+- kinds:
+  - sawtooth
+  name: 'sawtooth 1'
+  irregularities: []
+  segment_id: TO-0337_saw1
+  start: 2020-01-31 15:31:05
+  end: 2020-01-31 15:38:44
+- kinds:
+  - sawtooth
+  name: 'sawtooth 2'
+  irregularities: []
+  segment_id: TO-0337_saw2
+  start: 2020-01-31 15:39:38
+  end: 2020-01-31 15:50:25
+- kinds:
+  - profile
+  name: 'profile 3'
+  irregularities: []
+  segment_id: TO-0337_prof3
+  start: 2020-01-31 15:53:34
+  end: 2020-01-31 15:57:10
+- kinds:
+  - profile
+  name: 'profile 4'
+  irregularities: []
+  segment_id: TO-0337_prof4
+  start: 2020-01-31 15:57:37
+  end: 2020-01-31 16:01:13
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 4'
+  irregularities: []
+  segment_id: TO-0337_cld4
+  start: 2020-01-31 16:03:28
+  end: 2020-01-31 16:09:18
+- kinds:
+  - level
+  - cloud
+  name: 'cloud 5'
+  irregularities: []
+  segment_id: TO-0337_cld5
+  start: 2020-01-31 16:10:00
+  end: 2020-01-31 16:16:00
+- kinds:
+  - level
+  - transit
+  name: 'transit from circle'
+  irregularities: []
+  segment_id: TO-0337_tr2
+  start: 2020-01-31 16:21:54
+  end: 2020-01-31 16:33:35
+- kinds:
+  - profile
+  name: 'profile 5'
+  irregularities: []
+  segment_id: TO-0337_prof5
+  start: 2020-01-31 16:34:02
+  end: 2020-01-31 16:38:05
+- kinds:
+  - level
+  - bco_flyby
+  name: 'BCO flyby'
+  irregularities: []
+  segment_id: TO-0337_bco
+  start: 2020-01-31 16:20:00
+  end: 2020-01-31 16:22:00
