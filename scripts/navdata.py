@@ -47,9 +47,40 @@ def get_navdata_P3(flight):
         "heading": fl.cog,
     })
 
+def get_navdata_TO(flight_id):
+    """
+    :param nav_data: flight id
+    """
+    import xarray as xr
+    from intake import open_catalog
+    import re
+    match = re.match("TO-(\d+)", flight_id)
+    if match is None:
+        raise Exception(f"Malformed flight id {flight_id}")
+    flight_number = int(match.groups()[0])
+
+    if "TO" not in _catalog_cache:
+        _catalog_cache["TO"] = open_catalog("https://raw.githubusercontent.com/leifdenby/eurec4a-intake/twinotter-masin/catalog.yml")
+
+    catalog = _catalog_cache["TO"]
+
+    ds = catalog.TO.MASIN[f"TO{flight_number}_1Hz"].to_dask()
+    ds = ds.rename(dict(Time="time"))
+
+    return xr.Dataset({
+        "time": ds.time,
+        "lat": ds.LAT_OXTS,
+        "lon": ds.LON_OXTS,
+        "alt": ds.ALT_OXTS,
+        "roll": ds.ROLL_OXTS,
+        "pitch": ds.PTCH_OXTS,
+        "heading": ds.HDG_OXTS,
+    })
+
 NAVDATA_GETTERS = {
     "HALO": get_navdata_HALO,
     "P3":   get_navdata_P3,
+    "TO": get_navdata_TO,
 }
 
 def get_navdata(platform, flight):
