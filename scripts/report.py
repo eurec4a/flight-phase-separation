@@ -204,27 +204,31 @@ def _main():
     parser.add_argument("infile")
     parser.add_argument("outfile")
     parser.add_argument("-s", "--sonde_info", help="sonde info yaml file", default=os.path.join(basedir, "sondes.yaml"))
-    parser.add_argument("-n", "--nav_data", help="local file with flight coordinates", default=None)
     args = parser.parse_args()
 
     flightdata = yaml.load(open(args.infile), Loader=yaml.SafeLoader)
 
+    create_report(
+        flightdata=flightdata,
+        report_filepath=args.outfile,
+        sondes_filepath=args.sonde_info,
+    )
+
+
+def create_report(flightdata, report_filepath, sondes_filepath):
     checker = FlightChecker(flightdata)
     global_warnings = list(checker.check_flight(flightdata))
 
     flight_id = flightdata.get("flight_id", "")
     platform = flightdata.get("platform", "")
 
-    if args.sonde_info is not None:
-        sonde_info = yaml.load(open(args.sonde_info), Loader=yaml.SafeLoader)
+    if sondes_filepath is not None:
+        sonde_info = yaml.load(open(sondes_filepath), Loader=yaml.SafeLoader)
     else:
         sonde_info = []
         global_warnings.append("no sonde_info is specified, using data from unified dataset")
 
-    if args.nav_data is None:
-        navdata = get_navdata(platform, flight_id).load()
-    else:
-        navdata = get_navdata(platform, args.nav_data).load()
+    navdata = get_navdata(platform, flight_id).load()
 
     sonde_info = [s for s in sonde_info if s["platform"] == platform]
     sondes_by_id = {s["sonde_id"]: s for s in sonde_info}
@@ -284,7 +288,7 @@ def _main():
 
     tpl = env.get_template("flight.html")
 
-    with open(args.outfile, "w") as outfile:
+    with open(report_filepath, "w") as outfile:
         outfile.write(tpl.render(flight=flightdata))
 
 if __name__ == "__main__":
